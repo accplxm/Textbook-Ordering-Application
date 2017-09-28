@@ -1,0 +1,15 @@
+.invisible-at-first{
+	display:none;
+}
+.borderpadding{
+	padding:20px;
+}
+
+.bordermargin{
+	margin:60;
+
+}
+.navbar{
+margin-left:20px;
+margin-right:20px;
+}

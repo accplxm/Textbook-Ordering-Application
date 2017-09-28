@@ -1,0 +1,695 @@
+[INFO ] 2017-09-21 14:09:05.094 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 7384 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[INFO ] 2017-09-21 14:09:05.094 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-21 14:09:17.878 [main] SpringStartingApplication - Started SpringStartingApplication in 13.457 seconds (JVM running for 16.666)
+[INFO ] 2017-09-21 14:09:21.704 [http-nio-8080-exec-10] TestController - Entered login page maaping method
+[INFO ] 2017-09-21 14:57:12.669 [http-nio-8080-exec-6] TestController - Entered login page maaping method
+[INFO ] 2017-09-21 15:10:03.611 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 2416 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[INFO ] 2017-09-21 15:10:03.642 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-21 15:10:11.187 [main] SpringStartingApplication - Started SpringStartingApplication in 8.689 seconds (JVM running for 12.358)
+[INFO ] 2017-09-21 15:10:47.844 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-21 15:15:30.603 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 8168 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[INFO ] 2017-09-21 15:15:30.618 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-21 15:15:42.915 [main] SpringStartingApplication - Started SpringStartingApplication in 13.351 seconds (JVM running for 17.336)
+[INFO ] 2017-09-21 15:16:09.226 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-21 15:16:18.037 [http-nio-8080-exec-2] TestController - Entered login page maaping method
+[INFO ] 2017-09-21 15:19:37.324 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 5644 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[INFO ] 2017-09-21 15:19:37.340 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-21 15:19:45.089 [main] SpringStartingApplication - Started SpringStartingApplication in 8.758 seconds (JVM running for 12.701)
+[INFO ] 2017-09-21 15:20:13.271 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-21 15:22:32.483 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 8056 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[INFO ] 2017-09-21 15:22:32.498 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-21 15:22:42.453 [main] SpringStartingApplication - Started SpringStartingApplication in 11.054 seconds (JVM running for 14.472)
+[INFO ] 2017-09-21 15:22:56.873 [http-nio-8080-exec-2] TestController - Entered login page maaping method
+[INFO ] 2017-09-21 15:23:10.526 [http-nio-8080-exec-8] OAuth2Callback - The Userid retrieved and set for session variable is :2
+[INFO ] 2017-09-21 15:29:31.631 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 8892 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[INFO ] 2017-09-21 15:29:31.647 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-21 15:29:39.377 [main] SpringStartingApplication - Started SpringStartingApplication in 8.49 seconds (JVM running for 12.26)
+[INFO ] 2017-09-21 15:29:42.503 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-21 15:29:56.284 [http-nio-8080-exec-3] OAuth2Callback - The Userid retrieved and set for session variable is :2
+[INFO ] 2017-09-21 15:33:16.641 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 9888 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[INFO ] 2017-09-21 15:33:16.656 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-21 15:33:25.558 [main] SpringStartingApplication - Started SpringStartingApplication in 10.008 seconds (JVM running for 13.51)
+[INFO ] 2017-09-21 15:34:03.016 [http-nio-8080-exec-2] OAuth2Callback - The Userid retrieved and set for session variable is :2
+[INFO ] 2017-09-21 15:34:03.064 [http-nio-8080-exec-5] TestController - Entered login page maaping method
+[INFO ] 2017-09-21 15:34:13.545 [http-nio-8080-exec-7] OAuth2Callback - The Userid retrieved and set for session variable is :2
+[INFO ] 2017-09-21 15:34:13.581 [http-nio-8080-exec-9] TestController - Entered login page maaping method
+[INFO ] 2017-09-21 15:36:53.434 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 4896 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[INFO ] 2017-09-21 15:36:53.445 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-21 15:37:04.981 [main] SpringStartingApplication - Started SpringStartingApplication in 12.706 seconds (JVM running for 16.228)
+[INFO ] 2017-09-21 15:38:52.905 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 9036 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-21 15:38:52.921 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-21 15:38:52.921 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-21 15:39:02.987 [main] SpringStartingApplication - Started SpringStartingApplication in 11.161 seconds (JVM running for 14.719)
+[INFO ] 2017-09-21 15:39:32.102 [http-nio-8080-exec-1] OAuth2Callback - The Userid retrieved and set for session variable is :2
+[DEBUG] 2017-09-21 15:39:32.202 [http-nio-8080-exec-2] TestController - checking the userid exists in session or not for :2
+[DEBUG] 2017-09-21 15:40:02.915 [http-nio-8080-exec-3] TestController - logging out so setting userid to null in session variable :null
+[DEBUG] 2017-09-21 15:40:25.945 [http-nio-8080-exec-5] TestController - checking the userid exists in session or not for :2
+[DEBUG] 2017-09-21 15:42:20.007 [http-nio-8080-exec-2] TestController - logging out so setting userid to null in session variable :null
+[DEBUG] 2017-09-21 15:42:50.967 [http-nio-8080-exec-4] TestController - checking the userid exists in session or not for :2
+[DEBUG] 2017-09-21 15:43:49.489 [http-nio-8080-exec-5] TestController - logging out so setting userid to null in session variable :null
+[INFO ] 2017-09-21 15:44:45.275 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 9352 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-21 15:44:45.291 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-21 15:44:45.291 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-21 15:44:54.749 [main] SpringStartingApplication - Started SpringStartingApplication in 10.559 seconds (JVM running for 14.146)
+[INFO ] 2017-09-21 15:45:38.776 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-21 15:48:12.757 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 6092 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-21 15:48:12.757 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-21 15:48:12.757 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-21 15:48:20.907 [main] SpringStartingApplication - Started SpringStartingApplication in 9.253 seconds (JVM running for 12.967)
+[INFO ] 2017-09-21 15:48:43.725 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-21 15:48:54.561 [http-nio-8080-exec-6] TestController - Entered login page maaping method
+[INFO ] 2017-09-21 15:49:03.315 [http-nio-8080-exec-9] TestController - Entered login page maaping method
+[INFO ] 2017-09-21 15:49:12.900 [http-nio-8080-exec-3] OAuth2Callback - The Userid retrieved and set for session variable is :2
+[DEBUG] 2017-09-21 15:49:12.916 [http-nio-8080-exec-5] TestController - checking the userid exists in session or not for :2
+[DEBUG] 2017-09-21 15:49:16.669 [http-nio-8080-exec-6] TestController - logging out so setting userid to null in session variable :123123123
+[DEBUG] 2017-09-21 15:49:23.113 [http-nio-8080-exec-8] TestController - checking the userid exists in session or not for :2
+[INFO ] 2017-09-21 15:51:09.446 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 6340 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-21 15:51:09.462 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-21 15:51:09.462 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-21 15:51:18.066 [main] SpringStartingApplication - Started SpringStartingApplication in 9.677 seconds (JVM running for 13.16)
+[INFO ] 2017-09-21 15:51:37.764 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-21 15:51:50.187 [http-nio-8080-exec-3] OAuth2Callback - The Userid retrieved and set for session variable is :2
+[DEBUG] 2017-09-21 15:51:50.239 [http-nio-8080-exec-5] TestController - checking the userid exists in session or not for :2
+[DEBUG] 2017-09-21 15:51:56.903 [http-nio-8080-exec-8] TestController - logging out so setting userid to null in session variable :null
+[DEBUG] 2017-09-21 15:52:03.046 [http-nio-8080-exec-10] TestController - checking the userid exists in session or not for :2
+[INFO ] 2017-09-21 15:53:42.737 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 5128 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-21 15:53:42.752 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-21 15:53:42.752 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-21 15:53:50.875 [main] SpringStartingApplication - Started SpringStartingApplication in 9.298 seconds (JVM running for 12.674)
+[INFO ] 2017-09-21 15:54:51.105 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-21 15:55:11.927 [http-nio-8080-exec-7] TestController - Entered login page maaping method
+[INFO ] 2017-09-21 15:55:25.094 [http-nio-8080-exec-10] OAuth2Callback - The Userid retrieved and set for session variable is :2
+[DEBUG] 2017-09-21 15:55:25.127 [http-nio-8080-exec-2] TestController - checking the userid exists in session or not for :2
+[DEBUG] 2017-09-21 15:55:29.191 [http-nio-8080-exec-7] TestController - logging out so setting userid to null in session variable :null
+[DEBUG] 2017-09-21 15:55:34.685 [http-nio-8080-exec-9] TestController - checking the userid exists in session or not for :2
+[INFO ] 2017-09-21 15:59:56.544 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 9188 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-21 15:59:56.560 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-21 15:59:56.560 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-21 16:00:04.152 [main] SpringStartingApplication - Started SpringStartingApplication in 8.699 seconds (JVM running for 12.104)
+[INFO ] 2017-09-21 16:00:43.270 [http-nio-8080-exec-2] TestController - Entered login page maaping method
+[INFO ] 2017-09-21 16:00:55.060 [http-nio-8080-exec-1] OAuth2Callback - The Userid retrieved and set for session variable is :2
+[DEBUG] 2017-09-21 16:00:55.076 [http-nio-8080-exec-4] TestController - checking the userid exists in session or not for :2
+[DEBUG] 2017-09-21 16:00:57.573 [http-nio-8080-exec-8] TestController - logging out so setting userid to null in session variable :null
+[INFO ] 2017-09-21 16:01:07.088 [http-nio-8080-exec-2] TestController - Entered login page maaping method
+[INFO ] 2017-09-21 16:06:30.729 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 5116 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-21 16:06:30.745 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-21 16:06:30.745 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-21 16:06:38.328 [main] SpringStartingApplication - Started SpringStartingApplication in 8.683 seconds (JVM running for 12.562)
+[INFO ] 2017-09-21 16:06:56.422 [http-nio-8080-exec-2] TestController - Entered login page maaping method
+[INFO ] 2017-09-21 16:07:01.565 [http-nio-8080-exec-4] TestController - Entered login page maaping method
+[INFO ] 2017-09-21 16:07:10.461 [http-nio-8080-exec-7] OAuth2Callback - The Userid retrieved and set for session variable is :2
+[DEBUG] 2017-09-21 16:07:10.485 [http-nio-8080-exec-7] TestController - checking the userid exists in session or not for :2
+[DEBUG] 2017-09-21 16:07:13.618 [http-nio-8080-exec-3] TestController - logging out so setting userid to null in session variable :null
+[INFO ] 2017-09-21 16:07:23.027 [http-nio-8080-exec-6] TestController - Entered login page maaping method
+[INFO ] 2017-09-23 17:31:07.983 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 9572 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-23 17:31:07.999 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-23 17:31:07.999 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-23 17:31:17.061 [main] SpringStartingApplication - Started SpringStartingApplication in 9.827 seconds (JVM running for 13.73)
+[INFO ] 2017-09-23 17:31:20.106 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-23 17:31:23.676 [http-nio-8080-exec-2] TestController - Entered login page maaping method
+[INFO ] 2017-09-23 17:31:24.821 [http-nio-8080-exec-5] TestController - Entered login page maaping method
+[INFO ] 2017-09-23 17:33:07.643 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 5448 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-23 17:33:07.659 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-23 17:33:07.659 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-23 17:33:16.391 [main] SpringStartingApplication - Started SpringStartingApplication in 9.753 seconds (JVM running for 13.489)
+[INFO ] 2017-09-23 17:33:29.014 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-23 17:33:44.975 [http-nio-8080-exec-6] TestController - Entered login page maaping method
+[INFO ] 2017-09-23 17:33:58.897 [http-nio-8080-exec-8] OAuth2Callback - The Userid retrieved and set for session variable is :2
+[DEBUG] 2017-09-23 17:33:58.973 [http-nio-8080-exec-9] TestController - checking the userid exists in session or not for :2
+[INFO ] 2017-09-23 17:58:57.764 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 11284 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-23 17:58:57.779 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-23 17:58:57.779 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-23 17:59:07.075 [main] SpringStartingApplication - Started SpringStartingApplication in 10.538 seconds (JVM running for 13.917)
+[INFO ] 2017-09-23 18:00:32.552 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-23 18:00:45.361 [http-nio-8080-exec-3] OAuth2Callback - The Userid retrieved and set for session variable is :2
+[DEBUG] 2017-09-23 18:00:45.394 [http-nio-8080-exec-6] TestController - checking the userid exists in session or not for :2
+[INFO ] 2017-09-23 19:22:56.329 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 8464 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-23 19:22:56.344 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-23 19:22:56.344 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-23 19:23:09.929 [main] SpringStartingApplication - Started SpringStartingApplication in 14.677 seconds (JVM running for 17.786)
+[INFO ] 2017-09-23 19:23:17.954 [http-nio-8080-exec-2] TestController - Entered login page maaping method
+[INFO ] 2017-09-23 19:23:30.454 [http-nio-8080-exec-4] OAuth2Callback - The Userid retrieved and set for session variable is :2
+[DEBUG] 2017-09-23 19:23:30.486 [http-nio-8080-exec-6] TestController - checking the userid exists in session or not for :2
+[INFO ] 2017-09-23 19:25:32.909 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 11344 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-23 19:25:32.925 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-23 19:25:32.925 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-23 19:25:46.359 [main] SpringStartingApplication - Started SpringStartingApplication in 14.495 seconds (JVM running for 18.583)
+[INFO ] 2017-09-23 19:25:51.263 [http-nio-8080-exec-2] TestController - Entered login page maaping method
+[INFO ] 2017-09-23 19:26:02.912 [http-nio-8080-exec-4] OAuth2Callback - The Userid retrieved and set for session variable is :2
+[DEBUG] 2017-09-23 19:26:02.944 [http-nio-8080-exec-6] TestController - checking the userid exists in session or not for :2
+[INFO ] 2017-09-23 19:27:49.812 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 3284 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-23 19:27:49.828 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-23 19:27:49.828 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-23 19:27:58.443 [main] SpringStartingApplication - Started SpringStartingApplication in 9.71 seconds (JVM running for 13.597)
+[INFO ] 2017-09-23 19:27:58.739 [http-nio-8080-exec-2] TestController - Entered login page maaping method
+[INFO ] 2017-09-23 19:28:08.438 [http-nio-8080-exec-4] OAuth2Callback - The Userid retrieved and set for session variable is :2
+[DEBUG] 2017-09-23 19:28:08.454 [http-nio-8080-exec-5] TestController - checking the userid exists in session or not for :2
+[INFO ] 2017-09-23 19:31:17.084 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 10580 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-23 19:31:17.100 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-23 19:31:17.100 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-23 19:31:30.324 [main] SpringStartingApplication - Started SpringStartingApplication in 14.277 seconds (JVM running for 17.81)
+[INFO ] 2017-09-23 19:31:39.956 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-23 19:31:52.450 [http-nio-8080-exec-3] OAuth2Callback - The Userid retrieved and set for session variable is :2
+[DEBUG] 2017-09-23 19:31:52.486 [http-nio-8080-exec-3] TestController - checking the userid exists in session or not for :2
+[INFO ] 2017-09-23 19:33:21.203 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 11308 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-23 19:33:21.218 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-23 19:33:21.218 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-23 19:33:34.555 [main] SpringStartingApplication - Started SpringStartingApplication in 14.38 seconds (JVM running for 18.015)
+[INFO ] 2017-09-23 19:33:34.825 [http-nio-8080-exec-2] TestController - Entered login page maaping method
+[INFO ] 2017-09-23 19:33:43.712 [http-nio-8080-exec-4] OAuth2Callback - The Userid retrieved and set for session variable is :2
+[DEBUG] 2017-09-23 19:33:43.728 [http-nio-8080-exec-6] TestController - checking the userid exists in session or not for :2
+[INFO ] 2017-09-23 19:37:13.900 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 11748 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-23 19:37:13.916 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-23 19:37:13.916 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-23 19:37:24.854 [main] SpringStartingApplication - Started SpringStartingApplication in 12.055 seconds (JVM running for 15.502)
+[INFO ] 2017-09-23 19:37:29.945 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-23 19:37:50.323 [http-nio-8080-exec-3] OAuth2Callback - The Userid retrieved and set for session variable is :2
+[DEBUG] 2017-09-23 19:37:50.335 [http-nio-8080-exec-4] TestController - checking the userid exists in session or not for :2
+[INFO ] 2017-09-23 19:38:57.876 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 9564 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-23 19:38:57.892 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-23 19:38:57.892 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-23 19:39:07.218 [main] SpringStartingApplication - Started SpringStartingApplication in 10.483 seconds (JVM running for 14.218)
+[INFO ] 2017-09-23 19:39:07.406 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-23 19:39:18.167 [http-nio-8080-exec-3] OAuth2Callback - The Userid retrieved and set for session variable is :2
+[DEBUG] 2017-09-23 19:39:18.183 [http-nio-8080-exec-6] TestController - checking the userid exists in session or not for :2
+[INFO ] 2017-09-23 19:40:13.347 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 3168 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-23 19:40:13.359 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-23 19:40:13.359 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-23 19:40:29.611 [main] SpringStartingApplication - Started SpringStartingApplication in 17.325 seconds (JVM running for 21.113)
+[INFO ] 2017-09-23 19:40:43.143 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-23 19:40:54.401 [http-nio-8080-exec-3] OAuth2Callback - The Userid retrieved and set for session variable is :2
+[DEBUG] 2017-09-23 19:40:54.421 [http-nio-8080-exec-6] TestController - checking the userid exists in session or not for :2
+[INFO ] 2017-09-23 19:41:42.705 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 12200 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-23 19:41:42.721 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-23 19:41:42.721 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-23 19:41:54.866 [main] SpringStartingApplication - Started SpringStartingApplication in 13.229 seconds (JVM running for 16.573)
+[INFO ] 2017-09-23 19:42:06.457 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-23 19:42:19.596 [http-nio-8080-exec-10] OAuth2Callback - The Userid retrieved and set for session variable is :2
+[DEBUG] 2017-09-23 19:42:19.616 [http-nio-8080-exec-9] TestController - checking the userid exists in session or not for :2
+[INFO ] 2017-09-23 19:43:53.548 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 8328 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-23 19:43:53.568 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-23 19:43:53.568 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-23 19:44:06.824 [main] SpringStartingApplication - Started SpringStartingApplication in 14.869 seconds (JVM running for 18.954)
+[INFO ] 2017-09-23 19:44:07.162 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-23 19:44:16.991 [http-nio-8080-exec-3] OAuth2Callback - The Userid retrieved and set for session variable is :2
+[DEBUG] 2017-09-23 19:44:17.012 [http-nio-8080-exec-4] TestController - checking the userid exists in session or not for :2
+[INFO ] 2017-09-23 19:45:24.804 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 11148 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-23 19:45:24.820 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-23 19:45:24.820 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-23 19:45:34.323 [main] SpringStartingApplication - Started SpringStartingApplication in 10.499 seconds (JVM running for 14.219)
+[INFO ] 2017-09-23 19:46:00.573 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-23 19:46:20.608 [http-nio-8080-exec-7] OAuth2Callback - The Userid retrieved and set for session variable is :2
+[DEBUG] 2017-09-23 19:46:20.636 [http-nio-8080-exec-9] TestController - checking the userid exists in session or not for :2
+[INFO ] 2017-09-24 01:54:30.896 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 10624 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-24 01:54:30.900 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-24 01:54:30.900 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-24 02:01:38.497 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 3728 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-24 02:01:38.501 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-24 02:01:38.501 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-24 02:08:35.421 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 4400 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-24 02:08:35.433 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-24 02:08:35.433 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-24 02:08:44.400 [main] SpringStartingApplication - Started SpringStartingApplication in 9.747 seconds (JVM running for 14.425)
+[INFO ] 2017-09-24 02:35:47.845 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 6256 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-24 02:35:47.865 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-24 02:35:47.869 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-24 02:35:58.217 [main] SpringStartingApplication - Started SpringStartingApplication in 11.519 seconds (JVM running for 15.136)
+[INFO ] 2017-09-24 14:47:36.582 [http-nio-8080-exec-10] TestController - Entered login page maaping method
+[INFO ] 2017-09-24 14:48:11.170 [http-nio-8080-exec-6] TestController - Entered login page maaping method
+[INFO ] 2017-09-24 14:48:22.721 [http-nio-8080-exec-1] OAuth2Callback - The Userid retrieved and set for session variable is :2
+[DEBUG] 2017-09-24 14:48:22.757 [http-nio-8080-exec-10] TestController - checking the userid exists in session or not for :2
+[INFO ] 2017-09-24 15:06:19.304 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 13304 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-24 15:06:19.319 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-24 15:06:19.319 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-24 15:06:33.178 [main] SpringStartingApplication - Started SpringStartingApplication in 15.122 seconds (JVM running for 18.265)
+[INFO ] 2017-09-24 15:06:54.275 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-24 15:07:05.157 [http-nio-8080-exec-3] OAuth2Callback - The Userid retrieved and set for session variable is :2
+[DEBUG] 2017-09-24 15:07:05.177 [http-nio-8080-exec-5] TestController - checking the userid exists in session or not for :2
+[INFO ] 2017-09-24 15:08:03.616 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 12744 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-24 15:08:03.632 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-24 15:08:03.632 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-24 15:08:13.839 [main] SpringStartingApplication - Started SpringStartingApplication in 11.122 seconds (JVM running for 14.494)
+[INFO ] 2017-09-24 15:09:33.811 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-24 15:09:49.643 [http-nio-8080-exec-4] OAuth2Callback - The Userid retrieved and set for session variable is :2
+[DEBUG] 2017-09-24 15:09:49.659 [http-nio-8080-exec-9] TestController - checking the userid exists in session or not for :2
+[INFO ] 2017-09-24 16:34:52.484 [http-nio-8080-exec-5] TestController - Entered login page maaping method
+[INFO ] 2017-09-24 16:46:44.174 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 12604 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-24 16:46:44.190 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-24 16:46:44.190 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-24 16:46:55.976 [main] SpringStartingApplication - Started SpringStartingApplication in 12.842 seconds (JVM running for 16.42)
+[INFO ] 2017-09-24 16:47:43.884 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 4820 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-24 16:47:43.900 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-24 16:47:43.900 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-24 16:47:57.741 [main] SpringStartingApplication - Started SpringStartingApplication in 14.965 seconds (JVM running for 19.036)
+[INFO ] 2017-09-24 16:48:02.318 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-24 16:53:41.527 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 12412 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-24 16:53:41.542 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-24 16:53:41.542 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-24 16:53:57.593 [main] SpringStartingApplication - Started SpringStartingApplication in 17.003 seconds (JVM running for 20.291)
+[INFO ] 2017-09-24 16:54:10.946 [http-nio-8080-exec-10] TestController - Entered login page maaping method
+[INFO ] 2017-09-24 16:57:29.776 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 8340 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-24 16:57:29.791 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-24 16:57:29.791 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-24 16:57:42.492 [main] SpringStartingApplication - Started SpringStartingApplication in 13.838 seconds (JVM running for 17.009)
+[INFO ] 2017-09-24 16:58:11.059 [http-nio-8080-exec-2] TestController - Entered login page maaping method
+[INFO ] 2017-09-24 17:08:06.982 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 9820 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-24 17:08:06.997 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-24 17:08:06.997 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-24 17:08:16.781 [main] SpringStartingApplication - Started SpringStartingApplication in 10.951 seconds (JVM running for 14.514)
+[INFO ] 2017-09-24 17:09:50.227 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 10084 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-24 17:09:50.242 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-24 17:09:50.242 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-24 17:10:00.133 [main] SpringStartingApplication - Started SpringStartingApplication in 10.879 seconds (JVM running for 14.231)
+[INFO ] 2017-09-24 17:10:15.949 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[DEBUG] 2017-09-24 17:10:38.745 [http-nio-8080-exec-10] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-24 18:03:05.729 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 10776 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-24 18:03:05.744 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-24 18:03:05.744 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-24 18:03:21.492 [main] SpringStartingApplication - Started SpringStartingApplication in 16.809 seconds (JVM running for 20.183)
+[INFO ] 2017-09-24 18:04:17.350 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-24 18:04:29.876 [http-nio-8080-exec-3] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-24 18:04:29.896 [http-nio-8080-exec-3] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-24 18:11:01.437 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 3372 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-24 18:11:01.452 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-24 18:11:01.452 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-24 18:11:15.903 [main] SpringStartingApplication - Started SpringStartingApplication in 15.661 seconds (JVM running for 19.008)
+[INFO ] 2017-09-24 18:11:57.303 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-24 18:12:08.489 [http-nio-8080-exec-3] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-24 18:12:08.509 [http-nio-8080-exec-4] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-24 18:12:13.787 [http-nio-8080-exec-9] TestController - Clicked order textbook button
+[DEBUG] 2017-09-24 18:12:13.787 [http-nio-8080-exec-9] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-24 18:14:19.758 [http-nio-8080-exec-1] TestController - Clicked order textbook button
+[DEBUG] 2017-09-24 18:14:19.758 [http-nio-8080-exec-1] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-24 18:14:42.624 [http-nio-8080-exec-4] TestController - Clicked order textbook button
+[DEBUG] 2017-09-24 18:14:42.624 [http-nio-8080-exec-4] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-24 18:32:24.494 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 7604 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-24 18:32:24.494 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-24 18:32:24.494 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-24 18:32:39.486 [main] SpringStartingApplication - Started SpringStartingApplication in 15.647 seconds (JVM running for 19.209)
+[INFO ] 2017-09-24 18:32:59.884 [http-nio-8080-exec-1] TestController - Clicked order textbook button
+[INFO ] 2017-09-24 18:32:59.967 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-24 18:33:13.379 [http-nio-8080-exec-3] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-24 18:33:13.412 [http-nio-8080-exec-3] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-24 18:33:18.649 [http-nio-8080-exec-8] TestController - Clicked order textbook button
+[DEBUG] 2017-09-24 18:33:18.650 [http-nio-8080-exec-8] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-24 19:08:26.521 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 12120 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-24 19:08:26.537 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-24 19:08:26.537 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-24 19:08:35.000 [main] SpringStartingApplication - Started SpringStartingApplication in 9.64 seconds (JVM running for 13.496)
+[INFO ] 2017-09-24 19:09:59.027 [http-nio-8080-exec-1] TestController - Clicked order textbook button
+[INFO ] 2017-09-24 19:09:59.109 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-24 19:10:09.915 [http-nio-8080-exec-8] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-24 19:10:09.944 [http-nio-8080-exec-8] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-24 19:21:24.182 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 3056 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-24 19:21:24.197 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-24 19:21:24.197 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-24 19:21:36.886 [main] SpringStartingApplication - Started SpringStartingApplication in 13.656 seconds (JVM running for 17.534)
+[INFO ] 2017-09-24 19:21:37.193 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-24 19:21:48.065 [http-nio-8080-exec-3] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-24 19:21:48.078 [http-nio-8080-exec-3] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-24 19:41:58.027 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 10308 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-24 19:41:58.043 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-24 19:41:58.043 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-24 19:42:10.383 [main] SpringStartingApplication - Started SpringStartingApplication in 13.192 seconds (JVM running for 16.956)
+[INFO ] 2017-09-24 19:42:10.736 [http-nio-8080-exec-3] TestController - Entered login page maaping method
+[INFO ] 2017-09-24 19:42:21.920 [http-nio-8080-exec-9] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-24 19:42:21.963 [http-nio-8080-exec-9] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-24 19:42:36.808 [http-nio-8080-exec-3] TestController - Clicked order textbook button
+[DEBUG] 2017-09-24 19:42:36.809 [http-nio-8080-exec-3] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-24 19:42:48.620 [http-nio-8080-exec-8] TestController - Clicked order status button
+[DEBUG] 2017-09-24 19:42:48.622 [http-nio-8080-exec-8] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-24 19:47:07.855 [http-nio-8080-exec-4] TestController - Clicked order textbook button
+[DEBUG] 2017-09-24 19:47:07.856 [http-nio-8080-exec-4] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-24 19:49:44.674 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 4820 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-24 19:49:44.705 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-24 19:49:44.705 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-24 19:49:54.711 [main] SpringStartingApplication - Started SpringStartingApplication in 11.06 seconds (JVM running for 14.746)
+[INFO ] 2017-09-24 19:50:15.960 [http-nio-8080-exec-1] TestController - Clicked order textbook button
+[INFO ] 2017-09-24 19:50:16.113 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-24 19:50:33.276 [http-nio-8080-exec-3] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-24 19:50:33.301 [http-nio-8080-exec-5] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-24 19:50:51.796 [http-nio-8080-exec-8] TestController - Clicked order textbook button
+[DEBUG] 2017-09-24 19:50:51.797 [http-nio-8080-exec-8] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-24 19:52:24.924 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 7316 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-24 19:52:24.940 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-24 19:52:24.940 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-24 19:52:37.275 [main] SpringStartingApplication - Started SpringStartingApplication in 13.231 seconds (JVM running for 17.519)
+[INFO ] 2017-09-24 19:52:41.360 [http-nio-8080-exec-1] TestController - Clicked order textbook button
+[INFO ] 2017-09-24 19:52:41.488 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-24 19:52:59.389 [http-nio-8080-exec-3] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-24 19:52:59.415 [http-nio-8080-exec-4] TestController - checking the userid exists in session or not for :3
+[DEBUG] 2017-09-24 19:53:09.736 [http-nio-8080-exec-6] TestController - checking the userid exists in session or not for :3
+[DEBUG] 2017-09-24 19:53:11.670 [http-nio-8080-exec-8] TestController - checking the userid exists in session or not for :3
+[DEBUG] 2017-09-24 19:53:13.229 [http-nio-8080-exec-10] TestController - checking the userid exists in session or not for :3
+[DEBUG] 2017-09-24 19:53:14.292 [http-nio-8080-exec-2] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-24 19:53:15.355 [http-nio-8080-exec-3] TestController - Clicked order textbook button
+[DEBUG] 2017-09-24 19:53:15.356 [http-nio-8080-exec-3] TestController - checking the userid exists in session or not for :3
+[DEBUG] 2017-09-24 19:53:19.265 [http-nio-8080-exec-5] TestController - checking the userid exists in session or not for :3
+[DEBUG] 2017-09-24 19:53:20.653 [http-nio-8080-exec-7] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-24 19:55:51.922 [http-nio-8080-exec-9] TestController - Clicked order textbook button
+[DEBUG] 2017-09-24 19:55:51.923 [http-nio-8080-exec-9] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-24 23:42:15.925 [http-nio-8080-exec-4] TestController - Entered login page maaping method
+[INFO ] 2017-09-24 23:42:21.185 [http-nio-8080-exec-7] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-24 23:42:21.201 [http-nio-8080-exec-8] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-24 23:42:55.498 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 11932 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-24 23:42:55.502 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-24 23:42:55.506 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-24 23:43:06.821 [main] SpringStartingApplication - Started SpringStartingApplication in 11.685 seconds (JVM running for 16.889)
+[INFO ] 2017-09-25 00:14:00.287 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 7912 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-25 00:14:00.291 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-25 00:14:00.291 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-25 00:14:17.186 [main] SpringStartingApplication - Started SpringStartingApplication in 17.978 seconds (JVM running for 21.541)
+[INFO ] 2017-09-25 00:14:31.396 [http-nio-8080-exec-10] TestController - Entered login page maaping method
+[INFO ] 2017-09-25 00:14:49.305 [http-nio-8080-exec-5] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-25 00:14:49.330 [http-nio-8080-exec-4] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-25 00:14:55.250 [http-nio-8080-exec-2] TestController - Clicked order textbook button
+[DEBUG] 2017-09-25 00:14:55.254 [http-nio-8080-exec-2] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-25 00:27:20.617 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 9576 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-25 00:27:20.641 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-25 00:27:20.641 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-25 00:27:36.267 [main] SpringStartingApplication - Started SpringStartingApplication in 16.666 seconds (JVM running for 20.518)
+[INFO ] 2017-09-25 00:27:41.331 [http-nio-8080-exec-1] TestController - Clicked order textbook button
+[INFO ] 2017-09-25 00:27:41.435 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-25 00:27:52.782 [http-nio-8080-exec-3] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-25 00:27:52.806 [http-nio-8080-exec-4] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-25 00:28:07.110 [http-nio-8080-exec-6] TestController - Clicked order textbook button
+[DEBUG] 2017-09-25 00:28:07.110 [http-nio-8080-exec-6] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-25 00:30:07.096 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 11396 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-25 00:30:07.108 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-25 00:30:07.108 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-25 00:30:15.410 [main] SpringStartingApplication - Started SpringStartingApplication in 9.185 seconds (JVM running for 13.602)
+[INFO ] 2017-09-25 00:31:17.179 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 3680 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-25 00:31:17.191 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-25 00:31:17.195 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-25 00:31:33.351 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 12332 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-25 00:31:33.367 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-25 00:31:33.367 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-25 00:31:46.080 [main] SpringStartingApplication - Started SpringStartingApplication in 13.87 seconds (JVM running for 17.447)
+[INFO ] 2017-09-25 00:31:49.344 [http-nio-8080-exec-1] TestController - Clicked order textbook button
+[INFO ] 2017-09-25 00:31:49.548 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-25 00:31:51.384 [http-nio-8080-exec-2] TestController - Clicked order textbook button
+[INFO ] 2017-09-25 00:31:51.401 [http-nio-8080-exec-3] TestController - Entered login page maaping method
+[INFO ] 2017-09-25 00:32:04.820 [http-nio-8080-exec-5] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-25 00:32:04.852 [http-nio-8080-exec-6] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-25 00:32:16.923 [http-nio-8080-exec-8] TestController - Clicked order textbook button
+[DEBUG] 2017-09-25 00:32:16.927 [http-nio-8080-exec-8] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-25 00:42:45.051 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 7784 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-25 00:42:45.059 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-25 00:42:45.067 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-25 00:42:54.675 [main] SpringStartingApplication - Started SpringStartingApplication in 10.652 seconds (JVM running for 15.329)
+[INFO ] 2017-09-25 00:48:17.219 [http-nio-8080-exec-10] TestController - Clicked order textbook button
+[INFO ] 2017-09-25 00:48:17.307 [http-nio-8080-exec-10] TestController - Entered login page maaping method
+[INFO ] 2017-09-25 00:48:31.015 [http-nio-8080-exec-8] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-25 00:48:31.051 [http-nio-8080-exec-5] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-25 00:48:35.107 [http-nio-8080-exec-2] TestController - Clicked order textbook button
+[DEBUG] 2017-09-25 00:48:35.111 [http-nio-8080-exec-2] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-25 00:54:22.742 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 8264 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-25 00:54:22.747 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-25 00:54:22.762 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-25 00:54:31.877 [main] SpringStartingApplication - Started SpringStartingApplication in 10.252 seconds (JVM running for 14.172)
+[INFO ] 2017-09-25 00:54:46.155 [http-nio-8080-exec-1] TestController - Clicked order textbook button
+[INFO ] 2017-09-25 00:54:46.235 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-25 00:54:59.306 [http-nio-8080-exec-3] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-25 00:54:59.358 [http-nio-8080-exec-6] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-25 00:55:03.234 [http-nio-8080-exec-9] TestController - Clicked order textbook button
+[DEBUG] 2017-09-25 00:55:03.234 [http-nio-8080-exec-9] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-25 00:56:14.597 [http-nio-8080-exec-1] TestController - Clicked order textbook button
+[INFO ] 2017-09-25 00:56:14.675 [http-nio-8080-exec-2] TestController - Entered login page maaping method
+[INFO ] 2017-09-25 00:56:36.681 [http-nio-8080-exec-9] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-25 00:56:36.712 [http-nio-8080-exec-10] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-25 00:56:40.540 [http-nio-8080-exec-4] TestController - Clicked order textbook button
+[DEBUG] 2017-09-25 00:56:40.540 [http-nio-8080-exec-4] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-25 01:00:27.719 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 12884 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-25 01:00:27.734 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-25 01:00:27.734 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-25 01:00:39.101 [main] SpringStartingApplication - Started SpringStartingApplication in 12.707 seconds (JVM running for 16.664)
+[INFO ] 2017-09-25 01:03:08.814 [http-nio-8080-exec-1] TestController - Clicked order textbook button
+[INFO ] 2017-09-25 01:03:08.878 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-25 01:03:20.689 [http-nio-8080-exec-3] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-25 01:03:20.713 [http-nio-8080-exec-5] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-25 01:03:23.825 [http-nio-8080-exec-4] TestController - Clicked order textbook button
+[DEBUG] 2017-09-25 01:03:23.825 [http-nio-8080-exec-4] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-25 01:06:01.419 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 6588 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-25 01:06:01.434 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-25 01:06:01.434 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-25 01:06:17.498 [main] SpringStartingApplication - Started SpringStartingApplication in 17.169 seconds (JVM running for 20.522)
+[INFO ] 2017-09-25 01:06:17.710 [http-nio-8080-exec-1] TestController - Clicked order textbook button
+[INFO ] 2017-09-25 01:06:17.742 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-25 01:06:27.810 [http-nio-8080-exec-3] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-25 01:06:27.834 [http-nio-8080-exec-4] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-25 01:06:31.738 [http-nio-8080-exec-8] TestController - Clicked order textbook button
+[DEBUG] 2017-09-25 01:06:31.738 [http-nio-8080-exec-8] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-25 01:09:59.443 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 8832 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-25 01:09:59.458 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-25 01:09:59.458 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-25 01:10:12.309 [main] SpringStartingApplication - Started SpringStartingApplication in 13.915 seconds (JVM running for 17.607)
+[INFO ] 2017-09-25 01:10:12.566 [http-nio-8080-exec-3] TestController - Clicked order textbook button
+[INFO ] 2017-09-25 01:10:12.598 [http-nio-8080-exec-3] TestController - Entered login page maaping method
+[INFO ] 2017-09-25 01:10:23.138 [http-nio-8080-exec-4] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-25 01:10:23.166 [http-nio-8080-exec-9] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-25 01:10:25.980 [http-nio-8080-exec-2] TestController - Clicked order textbook button
+[DEBUG] 2017-09-25 01:10:25.980 [http-nio-8080-exec-2] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 17:29:46.037 [main] SpringStartingApplicationTests - Starting SpringStartingApplicationTests on cnu with PID 5820 (started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-26 17:29:46.054 [main] SpringStartingApplicationTests - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-26 17:29:46.055 [main] SpringStartingApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-26 17:29:56.452 [main] SpringStartingApplicationTests - Started SpringStartingApplicationTests in 10.829 seconds (JVM running for 13.432)
+[INFO ] 2017-09-26 17:32:26.515 [main] SpringStartingApplicationTests - Starting SpringStartingApplicationTests on cnu with PID 3084 (started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-26 17:32:26.521 [main] SpringStartingApplicationTests - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-26 17:32:26.521 [main] SpringStartingApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-26 17:32:33.400 [main] SpringStartingApplicationTests - Started SpringStartingApplicationTests in 7.313 seconds (JVM running for 9.059)
+[INFO ] 2017-09-26 17:42:52.763 [main] SpringStartingApplicationTests - Starting SpringStartingApplicationTests on cnu with PID 10000 (started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-26 17:42:52.763 [main] SpringStartingApplicationTests - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-26 17:42:52.763 [main] SpringStartingApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-26 17:43:02.306 [main] SpringStartingApplicationTests - Started SpringStartingApplicationTests in 9.92 seconds (JVM running for 11.944)
+[INFO ] 2017-09-26 17:44:35.313 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 6248 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-26 17:44:35.313 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-26 17:44:35.313 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-26 17:44:48.422 [main] SpringStartingApplication - Started SpringStartingApplication in 14.034 seconds (JVM running for 18.36)
+[INFO ] 2017-09-26 17:46:12.536 [http-nio-8080-exec-10] TestController - Entered login page maaping method
+[INFO ] 2017-09-26 17:46:28.795 [http-nio-8080-exec-3] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-26 17:46:28.831 [http-nio-8080-exec-2] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 17:46:36.383 [http-nio-8080-exec-8] TestController - Clicked order textbook button
+[DEBUG] 2017-09-26 17:46:36.383 [http-nio-8080-exec-8] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 17:52:29.857 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 10560 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-26 17:52:29.857 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-26 17:52:29.873 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-26 17:52:40.908 [main] SpringStartingApplication - Started SpringStartingApplication in 11.827 seconds (JVM running for 15.568)
+[INFO ] 2017-09-26 17:53:09.199 [http-nio-8080-exec-1] TestController - Clicked order textbook button
+[INFO ] 2017-09-26 17:53:09.307 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-26 17:53:21.485 [http-nio-8080-exec-4] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-26 17:53:21.525 [http-nio-8080-exec-9] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 17:53:25.675 [http-nio-8080-exec-1] TestController - Clicked order textbook button
+[DEBUG] 2017-09-26 17:53:25.675 [http-nio-8080-exec-1] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 17:55:15.780 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 8052 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-26 17:55:15.795 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-26 17:55:15.795 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-26 17:55:28.114 [main] SpringStartingApplication - Started SpringStartingApplication in 13.429 seconds (JVM running for 16.925)
+[INFO ] 2017-09-26 17:55:38.720 [http-nio-8080-exec-1] TestController - Clicked order textbook button
+[INFO ] 2017-09-26 17:55:38.793 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-26 17:55:51.692 [http-nio-8080-exec-3] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-26 17:55:51.736 [http-nio-8080-exec-3] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 17:55:55.372 [http-nio-8080-exec-7] TestController - Clicked order textbook button
+[DEBUG] 2017-09-26 17:55:55.376 [http-nio-8080-exec-7] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 17:59:59.529 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 10732 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-26 17:59:59.544 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-26 17:59:59.544 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-26 18:00:08.136 [main] SpringStartingApplication - Started SpringStartingApplication in 9.581 seconds (JVM running for 13.437)
+[INFO ] 2017-09-26 18:00:22.149 [http-nio-8080-exec-3] TestController - Clicked order textbook button
+[INFO ] 2017-09-26 18:00:22.261 [http-nio-8080-exec-4] TestController - Entered login page maaping method
+[INFO ] 2017-09-26 18:00:40.107 [http-nio-8080-exec-6] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-26 18:00:40.123 [http-nio-8080-exec-10] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 18:00:42.890 [http-nio-8080-exec-1] TestController - Clicked order textbook button
+[DEBUG] 2017-09-26 18:00:42.890 [http-nio-8080-exec-1] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 18:09:59.258 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 9176 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-26 18:09:59.274 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-26 18:09:59.274 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-26 18:10:14.537 [main] SpringStartingApplication - Started SpringStartingApplication in 16.421 seconds (JVM running for 19.956)
+[INFO ] 2017-09-26 18:10:26.156 [http-nio-8080-exec-1] TestController - Clicked order textbook button
+[INFO ] 2017-09-26 18:10:26.276 [http-nio-8080-exec-2] TestController - Entered login page maaping method
+[INFO ] 2017-09-26 18:10:37.973 [http-nio-8080-exec-4] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-26 18:10:37.993 [http-nio-8080-exec-6] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 18:10:40.902 [http-nio-8080-exec-7] TestController - Clicked order textbook button
+[DEBUG] 2017-09-26 18:10:40.902 [http-nio-8080-exec-7] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 18:12:01.928 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 10108 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-26 18:12:01.943 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-26 18:12:01.943 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-26 18:12:10.231 [main] SpringStartingApplication - Started SpringStartingApplication in 9.513 seconds (JVM running for 13.2)
+[INFO ] 2017-09-26 18:12:17.648 [http-nio-8080-exec-1] TestController - Clicked order textbook button
+[INFO ] 2017-09-26 18:12:17.756 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-26 18:12:29.786 [http-nio-8080-exec-5] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-26 18:12:29.798 [http-nio-8080-exec-7] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 18:12:32.387 [http-nio-8080-exec-8] TestController - Clicked order textbook button
+[DEBUG] 2017-09-26 18:12:32.387 [http-nio-8080-exec-8] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 18:17:25.817 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 10320 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-26 18:17:25.829 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-26 18:17:25.831 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-26 18:17:40.549 [main] SpringStartingApplication - Started SpringStartingApplication in 15.679 seconds (JVM running for 19.275)
+[INFO ] 2017-09-26 18:18:00.555 [http-nio-8080-exec-1] TestController - Clicked order textbook button
+[INFO ] 2017-09-26 18:18:00.691 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-26 18:18:22.566 [http-nio-8080-exec-6] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-26 18:18:22.594 [http-nio-8080-exec-6] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 18:18:50.661 [http-nio-8080-exec-7] TestController - Clicked order textbook button
+[DEBUG] 2017-09-26 18:18:50.665 [http-nio-8080-exec-7] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 18:26:15.586 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 7728 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-26 18:26:15.586 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-26 18:26:15.586 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-26 18:26:22.570 [main] SpringStartingApplication - Started SpringStartingApplication in 7.65 seconds (JVM running for 11.128)
+[INFO ] 2017-09-26 18:27:18.295 [http-nio-8080-exec-1] TestController - Clicked order textbook button
+[INFO ] 2017-09-26 18:27:18.375 [http-nio-8080-exec-2] TestController - Entered login page maaping method
+[INFO ] 2017-09-26 18:27:30.311 [http-nio-8080-exec-3] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-26 18:27:30.355 [http-nio-8080-exec-3] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 18:27:33.381 [http-nio-8080-exec-5] TestController - Clicked order textbook button
+[DEBUG] 2017-09-26 18:27:33.381 [http-nio-8080-exec-5] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 18:29:01.918 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 8232 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-26 18:29:01.936 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-26 18:29:01.936 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-26 18:29:11.536 [main] SpringStartingApplication - Started SpringStartingApplication in 10.511 seconds (JVM running for 13.857)
+[INFO ] 2017-09-26 18:29:20.989 [http-nio-8080-exec-1] TestController - Clicked order textbook button
+[INFO ] 2017-09-26 18:29:21.081 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-26 18:29:37.995 [http-nio-8080-exec-4] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-26 18:29:38.019 [http-nio-8080-exec-4] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 18:29:44.893 [http-nio-8080-exec-6] TestController - Clicked order textbook button
+[DEBUG] 2017-09-26 18:29:44.893 [http-nio-8080-exec-6] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 18:31:17.052 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 10848 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-26 18:31:17.069 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-26 18:31:17.070 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-26 18:31:29.991 [main] SpringStartingApplication - Started SpringStartingApplication in 14.033 seconds (JVM running for 17.799)
+[DEBUG] 2017-09-26 18:31:34.770 [http-nio-8080-exec-6] TestController - logging out so setting userid to null in session variable :null
+[INFO ] 2017-09-26 18:31:52.604 [http-nio-8080-exec-8] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-26 18:31:52.632 [http-nio-8080-exec-10] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 18:31:55.431 [http-nio-8080-exec-7] TestController - Clicked order textbook button
+[DEBUG] 2017-09-26 18:31:55.431 [http-nio-8080-exec-7] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 18:32:55.393 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 2408 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-26 18:32:55.408 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-26 18:32:55.408 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-26 18:33:08.456 [main] SpringStartingApplication - Started SpringStartingApplication in 13.868 seconds (JVM running for 17.612)
+[DEBUG] 2017-09-26 18:33:23.219 [http-nio-8080-exec-1] TestController - logging out so setting userid to null in session variable :null
+[INFO ] 2017-09-26 18:33:33.461 [http-nio-8080-exec-3] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-26 18:33:33.517 [http-nio-8080-exec-4] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 18:33:37.599 [http-nio-8080-exec-5] TestController - Clicked order textbook button
+[DEBUG] 2017-09-26 18:33:37.599 [http-nio-8080-exec-5] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 18:38:02.049 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 7700 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-26 18:38:02.065 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-26 18:38:02.065 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-26 18:38:17.246 [main] SpringStartingApplication - Started SpringStartingApplication in 16.475 seconds (JVM running for 20.352)
+[INFO ] 2017-09-26 18:38:25.101 [http-nio-8080-exec-1] TestController - Clicked order textbook button
+[INFO ] 2017-09-26 18:38:25.309 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-26 18:38:37.385 [http-nio-8080-exec-3] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-26 18:38:37.421 [http-nio-8080-exec-4] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 18:38:41.140 [http-nio-8080-exec-8] TestController - Clicked order textbook button
+[DEBUG] 2017-09-26 18:38:41.144 [http-nio-8080-exec-8] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 18:39:55.435 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 10588 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-26 18:39:55.450 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-26 18:39:55.450 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-26 18:40:08.952 [main] SpringStartingApplication - Started SpringStartingApplication in 14.453 seconds (JVM running for 17.877)
+[DEBUG] 2017-09-26 18:40:45.547 [http-nio-8080-exec-2] TestController - logging out so setting userid to null in session variable :null
+[INFO ] 2017-09-26 18:40:56.334 [http-nio-8080-exec-4] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-26 18:40:56.358 [http-nio-8080-exec-7] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 18:40:59.028 [http-nio-8080-exec-10] TestController - Clicked order textbook button
+[DEBUG] 2017-09-26 18:40:59.028 [http-nio-8080-exec-10] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 18:47:05.084 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 10440 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-26 18:47:05.084 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-26 18:47:05.100 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-26 18:47:15.622 [main] SpringStartingApplication - Started SpringStartingApplication in 11.484 seconds (JVM running for 14.891)
+[DEBUG] 2017-09-26 18:47:23.186 [http-nio-8080-exec-10] TestController - logging out so setting userid to null in session variable :null
+[INFO ] 2017-09-26 18:47:34.901 [http-nio-8080-exec-8] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-26 18:47:34.921 [http-nio-8080-exec-7] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 18:47:39.075 [http-nio-8080-exec-6] TestController - Clicked order textbook button
+[DEBUG] 2017-09-26 18:47:39.079 [http-nio-8080-exec-6] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 18:50:42.499 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 8352 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-26 18:50:42.514 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-26 18:50:42.514 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-26 18:50:55.318 [main] SpringStartingApplication - Started SpringStartingApplication in 13.878 seconds (JVM running for 17.394)
+[DEBUG] 2017-09-26 18:50:55.467 [http-nio-8080-exec-1] TestController - logging out so setting userid to null in session variable :null
+[INFO ] 2017-09-26 18:51:53.606 [http-nio-8080-exec-4] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-26 18:51:53.626 [http-nio-8080-exec-5] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 18:52:10.742 [http-nio-8080-exec-6] TestController - Clicked order textbook button
+[DEBUG] 2017-09-26 18:52:10.748 [http-nio-8080-exec-6] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 19:22:49.640 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 6232 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-26 19:22:49.654 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-26 19:22:49.654 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-26 19:22:57.142 [main] SpringStartingApplication - Started SpringStartingApplication in 8.225 seconds (JVM running for 12.719)
+[INFO ] 2017-09-26 19:22:58.818 [http-nio-8080-exec-1] TestController - Clicked order textbook button
+[INFO ] 2017-09-26 19:22:58.914 [http-nio-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-26 19:23:12.265 [http-nio-8080-exec-4] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-26 19:23:12.293 [http-nio-8080-exec-3] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 19:23:15.544 [http-nio-8080-exec-5] TestController - Clicked order textbook button
+[DEBUG] 2017-09-26 19:23:15.544 [http-nio-8080-exec-5] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 19:24:24.365 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 2284 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-26 19:24:24.380 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-26 19:24:24.380 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-26 19:24:36.457 [main] SpringStartingApplication - Started SpringStartingApplication in 13.256 seconds (JVM running for 16.638)
+[DEBUG] 2017-09-26 19:24:51.051 [http-nio-8080-exec-1] TestController - logging out so setting userid to null in session variable :null
+[INFO ] 2017-09-26 19:25:05.087 [http-nio-8080-exec-3] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-26 19:25:05.111 [http-nio-8080-exec-4] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 19:25:10.582 [http-nio-8080-exec-5] TestController - Clicked order textbook button
+[DEBUG] 2017-09-26 19:25:10.587 [http-nio-8080-exec-5] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 19:28:55.665 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 7388 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-26 19:28:55.671 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-26 19:28:55.671 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-26 19:28:55.841 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 11200 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-26 19:28:55.872 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-26 19:28:55.872 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-26 19:29:20.484 [main] SpringStartingApplication - Started SpringStartingApplication in 25.649 seconds (JVM running for 30.118)
+[DEBUG] 2017-09-26 19:29:30.940 [http-nio-8080-exec-10] TestController - logging out so setting userid to null in session variable :null
+[INFO ] 2017-09-26 19:29:42.719 [http-nio-8080-exec-8] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-26 19:29:42.751 [http-nio-8080-exec-7] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 19:29:47.273 [http-nio-8080-exec-6] TestController - Clicked order textbook button
+[DEBUG] 2017-09-26 19:29:47.273 [http-nio-8080-exec-6] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 19:31:20.390 [http-nio-8080-exec-4] TestController - Clicked order textbook button
+[INFO ] 2017-09-26 19:31:20.424 [http-nio-8080-exec-4] TestController - Entered login page maaping method
+[INFO ] 2017-09-26 19:31:30.082 [http-nio-8080-exec-9] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-26 19:31:30.098 [http-nio-8080-exec-8] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 19:31:32.382 [http-nio-8080-exec-5] TestController - Clicked order textbook button
+[DEBUG] 2017-09-26 19:31:32.382 [http-nio-8080-exec-5] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 20:02:46.335 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 7696 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-26 20:02:46.351 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-26 20:02:46.351 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-26 20:02:59.516 [main] SpringStartingApplication - Started SpringStartingApplication in 14.58 seconds (JVM running for 18.333)
+[DEBUG] 2017-09-26 20:03:57.261 [http-nio-192.168.56.1-8080-exec-1] TestController - logging out so setting userid to null in session variable :null
+[DEBUG] 2017-09-26 20:04:27.614 [http-nio-192.168.56.1-8080-exec-2] TestController - logging out so setting userid to null in session variable :null
+[INFO ] 2017-09-26 20:16:38.113 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 5528 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-26 20:16:38.129 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-26 20:16:38.129 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-26 20:16:50.403 [main] SpringStartingApplication - Started SpringStartingApplication in 13.388 seconds (JVM running for 16.979)
+[DEBUG] 2017-09-26 20:17:12.856 [http-nio-172.20.10.4-8080-exec-6] TestController - logging out so setting userid to null in session variable :null
+[INFO ] 2017-09-26 20:19:29.406 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 10368 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-26 20:19:29.422 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-26 20:19:29.422 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-26 20:19:37.463 [main] SpringStartingApplication - Started SpringStartingApplication in 8.569 seconds (JVM running for 10.896)
+[DEBUG] 2017-09-26 20:20:03.741 [http-nio-172.26.28.198-8080-exec-1] TestController - logging out so setting userid to null in session variable :null
+[INFO ] 2017-09-26 20:42:50.362 [http-nio-172.26.28.198-8080-exec-7] TestController - Entered login page maaping method
+[INFO ] 2017-09-26 20:44:50.066 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 4248 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-26 20:44:50.082 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-26 20:44:50.082 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-26 20:44:58.229 [main] SpringStartingApplication - Started SpringStartingApplication in 9.136 seconds (JVM running for 12.663)
+[INFO ] 2017-09-26 20:46:00.479 [http-nio-0.0.0.0-8080-exec-1] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-26 20:46:00.535 [http-nio-0.0.0.0-8080-exec-1] TestController - checking the userid exists in session or not for :3
+[DEBUG] 2017-09-26 20:46:06.451 [http-nio-0.0.0.0-8080-exec-2] TestController - logging out so setting userid to null in session variable :null
+[INFO ] 2017-09-26 20:46:15.429 [http-nio-0.0.0.0-8080-exec-4] OAuth2Callback - The Userid retrieved and set for session variable is :3
+[DEBUG] 2017-09-26 20:46:15.457 [http-nio-0.0.0.0-8080-exec-5] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 20:51:54.786 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 9000 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-26 20:51:54.797 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-26 20:51:54.798 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-26 20:52:07.363 [main] SpringStartingApplication - Started SpringStartingApplication in 13.463 seconds (JVM running for 17.374)
+[INFO ] 2017-09-26 20:52:13.093 [http-nio-0.0.0.0-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-26 20:52:38.259 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 7340 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-26 20:52:38.291 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-26 20:52:38.291 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-26 20:52:48.229 [main] SpringStartingApplication - Started SpringStartingApplication in 11.059 seconds (JVM running for 14.271)
+[INFO ] 2017-09-26 20:53:01.358 [http-nio-0.0.0.0-8080-exec-1] TestController - Entered login page maaping method
+[INFO ] 2017-09-26 20:53:21.013 [http-nio-0.0.0.0-8080-exec-2] TestController - Entered login page maaping method
+[INFO ] 2017-09-26 20:53:34.795 [http-nio-0.0.0.0-8080-exec-9] TestController - Entered login page maaping method
+[INFO ] 2017-09-26 20:54:56.368 [http-nio-0.0.0.0-8080-exec-6] TestController - Entered login page maaping method
+[INFO ] 2017-09-26 20:58:00.796 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 8092 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-26 20:58:00.812 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-26 20:58:00.812 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-26 20:58:10.059 [main] SpringStartingApplication - Started SpringStartingApplication in 10.324 seconds (JVM running for 13.564)
+[INFO ] 2017-09-26 20:58:15.733 [http-nio-0.0.0.0-8080-exec-10] TestController - Entered login page maaping method
+[INFO ] 2017-09-26 20:59:18.500 [main] SpringStartingApplication - Starting SpringStartingApplication on cnu with PID 10284 (C:\Users\srinivas\workspace\SpringStarting\target\classes started by srinivas in C:\Users\srinivas\workspace\SpringStarting)
+[DEBUG] 2017-09-26 20:59:18.516 [main] SpringStartingApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[INFO ] 2017-09-26 20:59:18.516 [main] SpringStartingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2017-09-26 20:59:32.195 [main] SpringStartingApplication - Started SpringStartingApplication in 14.73 seconds (JVM running for 18.278)
+[DEBUG] 2017-09-26 20:59:37.644 [http-nio-0.0.0.0-8080-exec-1] TestController - checking the userid exists in session or not for :3
+[INFO ] 2017-09-26 20:59:45.779 [http-nio-0.0.0.0-8080-exec-5] TestController - Clicked order textbook button
+[DEBUG] 2017-09-26 20:59:45.779 [http-nio-0.0.0.0-8080-exec-5] TestController - checking the userid exists in session or not for :3
