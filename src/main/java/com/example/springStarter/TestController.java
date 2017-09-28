@@ -141,7 +141,7 @@ public class TestController {
     public ModelAndView CreateTextbookAndPlaceOrder(HttpServletRequest request){
         int i=0;
         Textbook textbook=null;
-        ClassOrder classOrder ;
+        ClassOrder classOrder = null ;
         List<Textbook> textbooks = new ArrayList<Textbook>();
 
         classOrder.setCourse((Course)request.getAttribute("course"));
@@ -159,7 +159,7 @@ public class TestController {
             classOrder =new ClassOrder();
             classOrder.setCourse((Course)request.getAttribute("course"));
             classOrder.setComments("");
-            classOrder.set
+            //classOrder.set
 
 
 
@@ -169,7 +169,7 @@ public class TestController {
         Order order =new Order();
         order.setUser(userService.finduserById((int)request.getSession().getAttribute("userid")));
         order.setOrderdate(new Date());
-        order.set
+        //order.set
 
         logger.info("Clicked order textbook button");
         request.setAttribute("page", "PAGE_ORDERTEXTBOOK");
