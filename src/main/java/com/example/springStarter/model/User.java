@@ -24,7 +24,7 @@ public class User implements Serializable  {
 	private String lastname;
 	@Column(name = "email_id")
 	private String emailid;
-	private role role;
+	private String role;
 	private String initials;
 	@ManyToOne
 	@JoinColumn(name = "department_id")
@@ -62,7 +62,7 @@ public void setDepartment(Department department) {
 	}
 
 	public User( String firstname,String lastname, String emailid,
-			String initials,role role) {
+			String initials,String role) {
 		super();
 		this.setFirstname(firstname);
 		this.lastname = lastname;
@@ -71,12 +71,19 @@ public void setDepartment(Department department) {
 		this.setRole(role);
 	}
 
-	public role getRole() {
+
+	public String getRole() {
 		return role;
 	}
-	public void setRole(role role) {
+
+
+
+	public void setRole(String role) {
 		this.role = role;
 	}
+
+
+
 	public String getFirstname() {
 		return firstname;
 	}

@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.example.springStarter.TestController;
-import com.example.springStarter.Contants.Setup;
+import com.example.springStarter.Constants.Setup;
 import com.example.springStarter.model.User;
 import com.example.springStarter.service.DepartmentService;
 import com.example.springStarter.service.UserService;

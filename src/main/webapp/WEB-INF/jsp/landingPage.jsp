@@ -80,7 +80,7 @@ footer {
 					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
 						class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#"><span
+				<a class="navbar-brand" href="landingPage"><span
 					class="glyphicon glyphicon-home"></span></a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
@@ -88,7 +88,9 @@ footer {
 					<li class= <c:if test="${page == 'PAGE_HOME'}">"active"</c:if>><a href="landingPage" id="first_tab">Home</a></li>
 					<li class= <c:if test="${page == 'PAGE_ORDERTEXTBOOK'}">"active"</c:if>><a href="ordertextbook" id="third_tab">Order Textbook</a></li>
 					<li class = <c:if test="${page == 'PAGE_ORDERSTATUS'}">"active"</c:if>><a href="orderstatus"  id="fourth_tab">Order Status</a></li>
+					<c:if test="${isAdmin == 'ADMIN'}"><li class = <c:if test="${page == 'PAGE_APPROVALS'}">"active"</c:if>><a href="approvals" id="fifth_tab">Approvals</a></li></c:if>
 					<li class = <c:if test="${page == 'PAGE_PROFILE'}">"active"</c:if>><a href="profile" id="fifth_tab">Profile</a></li>
+
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="log-out"><span
@@ -130,6 +132,9 @@ footer {
 </c:when>
 <c:when test="${page == 'PAGE_ORDERSTATUS'}">
 <jsp:include page="orderstatus.jsp"></jsp:include>
+</c:when>
+<c:when test="${page == 'PAGE_APPROVALS'}">
+<jsp:include page="approvals.jsp"></jsp:include>
 </c:when>
 <c:when test="${page == 'PAGE_PROFILE'}">
 <jsp:include page="profile.jsp"></jsp:include>

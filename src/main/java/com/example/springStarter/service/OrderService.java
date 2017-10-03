@@ -8,6 +8,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.example.springStarter.dao.OrderRepository;
 import com.example.springStarter.model.Order;
+import com.example.springStarter.model.User;
 
 
 
@@ -33,8 +34,8 @@ public class OrderService {
 			return orders;
 		}
 
-		public void save(Order order){
-			orderRepository.save(order);
+		public Order save(Order order){
+			return orderRepository.save(order);
 		}
 
 		public void delete(int id){
@@ -46,6 +47,18 @@ public class OrderService {
 		}
 
 
+		public List<Order> findAllByUser(User user) {
+
+
+			return orderRepository.findAllByuser(user);
+
+		}
+		public List<Order> findUserByDepartmentAndUserRole(int departmentId,String role) {
+
+
+			return orderRepository.findUserByDepartmentAndUserRole(departmentId,role);
+
+		}
 
 
 

@@ -21,7 +21,7 @@ public class Term  implements Serializable{
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int term_id;
 	private int year;
-	private semester semester;
+	private String semester;
 
 	@OneToMany(targetEntity = Order.class, mappedBy = "term",fetch=FetchType.LAZY, cascade=CascadeType.ALL)
 	private Set<Order> orders;
@@ -42,11 +42,11 @@ public class Term  implements Serializable{
 		this.year = year;
 	}
 
-	public semester getSemester() {
+	public String getSemester() {
 		return semester;
 	}
 
-	public void setSemester(semester semester) {
+	public void setSemester(String semester) {
 		this.semester = semester;
 	}
 

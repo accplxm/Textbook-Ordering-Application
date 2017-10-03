@@ -33,8 +33,8 @@ public class ClassOrderService {
 			return classorders;
 		}
 
-		public void save(ClassOrder classOrder){
-			classorderRepository.save(classOrder);
+		public ClassOrder save(ClassOrder classOrder){
+			return classorderRepository.save(classOrder);
 		}
 
 		public void delete(int id){

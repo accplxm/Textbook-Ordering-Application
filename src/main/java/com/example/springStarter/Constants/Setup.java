@@ -1,4 +1,4 @@
-package com.example.springStarter.Contants;
+package com.example.springStarter.Constants;
 
 public  final class Setup {
   public static final String CLIENT_ID = "1057193750796-g5f00lio8es15uulbfq4rs864a34nmsn.apps.googleusercontent.com";

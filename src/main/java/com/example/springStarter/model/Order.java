@@ -18,11 +18,11 @@ import javax.persistence.TemporalType;
 
 
 
-@Entity(name="order")
+@Entity(name="order_table")
 public class Order implements Serializable  {
 
 	  private static final long serialVersionUID = 1L;
-	  public  enum status{dean,chair,done};
+	  public  enum status{dean,chair,done,faculty,notApproved};
 	  @Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int order_id;
@@ -34,7 +34,7 @@ public class Order implements Serializable  {
 	@ManyToOne
 	@JoinColumn(name = "user_id")
 	private User user;
-	private status status;
+	private String status ;
 	private String comments;
 	private String istextusedlater;
 
@@ -75,11 +75,11 @@ public class Order implements Serializable  {
 		this.user = user;
 	}
 
-	public status getStatus() {
+	public String getStatus() {
 		return status;
 	}
 
-	public void setStatus(status status) {
+	public void setStatus(String status) {
 		this.status = status;
 	}
 

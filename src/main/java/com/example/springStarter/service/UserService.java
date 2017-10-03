@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.example.springStarter.dao.UserRepository;
+import com.example.springStarter.model.Department;
 import com.example.springStarter.model.User;
 
 
@@ -47,6 +48,10 @@ public class UserService {
 
 		public List<User> finduserByEmail(String email){
 			return userRepository.findAllByEmailidIgnoreCase(email);
+		}
+
+		public List<User> finduserByDepartmentAndRole(Department department,String role){
+			return userRepository.findAllByDepartmentAndRole(department, role);
 		}
 
 

@@ -17,13 +17,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.example.springStarter.Contants.Setup;
+import com.example.springStarter.Constants.Setup;
+import com.example.springStarter.googleAuthorization.MailingConfig;
 import com.example.springStarter.model.ClassOrder;
 import com.example.springStarter.model.Course;
 import com.example.springStarter.model.Order;
+import com.example.springStarter.model.Order.status;
 import com.example.springStarter.model.Task;
 import com.example.springStarter.model.Textbook;
 import com.example.springStarter.model.User;
+import com.example.springStarter.model.User.role;
 import com.example.springStarter.service.ClassOrderService;
 import com.example.springStarter.service.CourseService;
 import com.example.springStarter.service.DepartmentService;
@@ -32,6 +35,7 @@ import com.example.springStarter.service.TaskService;
 import com.example.springStarter.service.TermService;
 import com.example.springStarter.service.TextbookService;
 import com.example.springStarter.service.UserService;
+
 
 
 
@@ -59,6 +63,12 @@ public class TestController {
 
     @Autowired
     public TextbookService textbookService;
+
+    @Autowired
+    public helperClass helperClass;
+
+    @Autowired
+    private MailingConfig mailingConfig;
 
 
 
@@ -111,10 +121,13 @@ public class TestController {
 //
 //		request.setAttribute("redirect_URL", Setup.GOOGLE_AUTH_URL);
 
+
         request.setAttribute("page", "PAGE_HOME");
         request.getSession().setAttribute("userid", 3);
         if((request.getSession().getAttribute("userid")!=null) && checkifRegisteredUser(request,(int)request.getSession().getAttribute("userid"))){
         request.setAttribute("redirect_URL", Setup.GOOGLE_AUTH_URL);
+        User user =userService.finduserById((int)request.getSession().getAttribute("userid"));
+        if(helperClass.checkIfUserIsChair(user) || helperClass.checkIfUserIsDean(user) || helperClass.checkIfUserIsProvost(user))request.setAttribute("isAdmin", "ADMIN");
         return new ModelAndView("landingPage");
         }
         return new ModelAndView("redirect:/logInPage.html");
@@ -126,9 +139,13 @@ public class TestController {
         logger.info("Clicked order textbook button");
         request.setAttribute("page", "PAGE_ORDERTEXTBOOK");
         if((request.getSession().getAttribute("userid")!=null) && checkifRegisteredUser(request,(int)request.getSession().getAttribute("userid"))){
-        request.setAttribute("redirect_URL", Setup.GOOGLE_AUTH_URL);
+        	User user =userService.finduserById((int)request.getSession().getAttribute("userid"));
+            if(helperClass.checkIfUserIsChair(user) || helperClass.checkIfUserIsDean(user) || helperClass.checkIfUserIsProvost(user))request.setAttribute("isAdmin", "ADMIN");
+        	request.setAttribute("redirect_URL", Setup.GOOGLE_AUTH_URL);
         request.setAttribute("user",userService.finduserById((int)request.getSession().getAttribute("userid")));
         request.setAttribute("courses",courseService.findAll() );
+        request.setAttribute("textbooks",textbookService.findAll() );
+        request.setAttribute("terms",termService.findAll() );
 
         return new ModelAndView("landingPage");
         }
@@ -143,45 +160,80 @@ public class TestController {
         Textbook textbook=null;
         ClassOrder classOrder = null ;
         List<Textbook> textbooks = new ArrayList<Textbook>();
+        User currentUser =null;
 
-        classOrder.setCourse((Course)request.getAttribute("course"));
-        while (request.getAttribute("title"+i)!=null){
+        if((request.getSession().getAttribute("userid")!=null) && checkifRegisteredUser(request,(int)request.getSession().getAttribute("userid"))){
+
+        if(Boolean.parseBoolean(request.getParameter("textbookRequired"))){
+
+
+        while (request.getParameter("title"+i)!=null){
             textbook =new Textbook();
-            textbook.setTitle((String) request.getAttribute("title"+i));
-            textbook.setAuthor((String) request.getAttribute("author"+i));
-            textbook.setEdition((String) request.getAttribute("edition"+i));
-            textbook.setCopyright((String) request.getAttribute("copyright"+i));
-            textbook.setPublisher((String) request.getAttribute("publisher"+i));
-            textbook.setIsbn((String) request.getAttribute("isbn"+i));
-            textbook.setIscoderequired((boolean) request.getAttribute("iscoderequired"+i));
-            textbook.setIsebooksok((boolean) request.getAttribute("isebooksok"+i));
-            textbooks.add(textbookService.save(textbook));
-            classOrder =new ClassOrder();
-            classOrder.setCourse((Course)request.getAttribute("course"));
-            classOrder.setComments("");
-            //classOrder.set
-
-
+            textbook.setTitle((String) request.getParameter("title"+i));
+            textbook.setAuthor((String) request.getParameter("author"+i));
+            textbook.setEdition((String) request.getParameter("edition"+i));
+            textbook.setCopyright((String) request.getParameter("copyright"+i));
+            textbook.setPublisher((String) request.getParameter("publisher"+i));
+            textbook.setIsbn((String) request.getParameter("isbn"+i));
+            textbook.setIscoderequired((boolean) Boolean.parseBoolean(request.getParameter("iscoderequired"+i)));
+            textbook.setIsebooksok((boolean) Boolean.parseBoolean(request.getParameter("isebooksok"+i)));
+            textbook = textbookService.save(textbook);
+            logger.debug("Created Textbook : " +textbook.getTextbook_id());
+            textbooks.add(textbook);
 
 
             i++;
         }
+        }
+
+        //set order
         Order order =new Order();
-        order.setUser(userService.finduserById((int)request.getSession().getAttribute("userid")));
+        currentUser= userService.finduserById((int)request.getSession().getAttribute("userid"));
+       order.setUser(currentUser);
+        order.setTerm(termService.findtermById(Integer.parseInt(request.getParameter("term"))));
+        order.setComments("sdsd");
+       order.setStatus(status.chair.toString());
+        order.setIstextusedlater("No");
         order.setOrderdate(new Date());
-        //order.set
+        order= orderService.save(order);
+        logger.debug("Created Order : " +order.getOrder_id());
+        //Create class_order with each textbook and order_id
+        logger.debug("Number of textbooks present: "+textbooks.size());
+        Course course = courseService.findCourseById(Integer.parseInt(request.getParameter("course")));
+        for(int orderTextBook =0; orderTextBook<textbooks.size();orderTextBook++){
+        	classOrder =new ClassOrder();
+        	classOrder.setComments("sdsdsd");
+        	 classOrder.setCourse(course);
+        	 classOrder.setOrder(order);
+        	 classOrder.setTextbook(textbooks.get(orderTextBook));
+        	 classOrder = classOrderService.save(classOrder);
+        	 logger.debug("Created class_order : " +classOrder.getClass_order_id());
+        }
 
         logger.info("Clicked order textbook button");
-        request.setAttribute("page", "PAGE_ORDERTEXTBOOK");
-        if((request.getSession().getAttribute("userid")!=null) && checkifRegisteredUser(request,(int)request.getSession().getAttribute("userid"))){
+
+
         request.setAttribute("redirect_URL", Setup.GOOGLE_AUTH_URL);
         request.setAttribute("user",userService.finduserById((int)request.getSession().getAttribute("userid")));
         request.setAttribute("courses",courseService.findAll() );
+        try {
+        	//get department chair person address and name for sending the mail.
 
-        return new ModelAndView("landingPage");
+        	User departmentChair = (userService.finduserByDepartmentAndRole(currentUser.getDepartment(), role.chair.toString()).get(0));
+
+
+			mailingConfig.sendEmail(departmentChair.getFirstname()+departmentChair.getLastname(),departmentChair.getEmailid(),"Textbook order waiting for your approval",course.getClassname(),currentUser.getFirstname()+currentUser.getLastname());
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+        return new ModelAndView("redirect:/orderstatus");
         }
+//        request.setAttribute("page", "PAGE_ORDERSTATUS");
         return new ModelAndView("redirect:/logInPage.html");
     }
+
+
 
 
 
@@ -192,7 +244,29 @@ public class TestController {
         logger.info("Clicked order status button");
         request.setAttribute("page", "PAGE_ORDERSTATUS");
         if((request.getSession().getAttribute("userid")!=null) && checkifRegisteredUser(request,(int)request.getSession().getAttribute("userid"))){
+
+        	User user =userService.finduserById((int)request.getSession().getAttribute("userid"));
+            if(helperClass.checkIfUserIsChair(user) || helperClass.checkIfUserIsDean(user) || helperClass.checkIfUserIsProvost(user))request.setAttribute("isAdmin", "ADMIN");
         request.setAttribute("redirect_URL", Setup.GOOGLE_AUTH_URL);
+        request.setAttribute("user",userService.finduserById((int)request.getSession().getAttribute("userid")));
+        request.setAttribute("orders",orderService.findAllByUser(userService.finduserById((int)request.getSession().getAttribute("userid"))));
+        return new ModelAndView("landingPage");
+        }
+        return new ModelAndView("redirect:/logInPage.html");
+    }
+
+    @RequestMapping("/approvals")
+    public ModelAndView Approvals(HttpServletRequest request){
+
+        logger.info("Clicked approvals button");
+        request.setAttribute("page", "PAGE_APPROVALS");
+        if((request.getSession().getAttribute("userid")!=null) && checkifRegisteredUser(request,(int)request.getSession().getAttribute("userid"))){
+        	User user =userService.finduserById((int)request.getSession().getAttribute("userid"));
+      if(helperClass.checkIfUserIsChair(user) || helperClass.checkIfUserIsDean(user) || helperClass.checkIfUserIsProvost(user))request.setAttribute("isAdmin", "ADMIN");
+      request.setAttribute("user",userService.finduserById((int)request.getSession().getAttribute("userid")));
+      request.setAttribute("orders", orderService.findUserByDepartmentAndUserRole(user.getDepartment().getDepartment_id(),user.getRole()));
+
+        	request.setAttribute("redirect_URL", Setup.GOOGLE_AUTH_URL);
         return new ModelAndView("landingPage");
         }
         return new ModelAndView("redirect:/logInPage.html");
@@ -204,7 +278,11 @@ public class TestController {
         logger.info("Clicked profile button");
         request.setAttribute("page", "PAGE_PROFILE");
         if((request.getSession().getAttribute("userid")!=null) && checkifRegisteredUser(request,(int)request.getSession().getAttribute("userid"))){
-        request.setAttribute("redirect_URL", Setup.GOOGLE_AUTH_URL);
+
+        	User user =userService.finduserById((int)request.getSession().getAttribute("userid"));
+            if(helperClass.checkIfUserIsChair(user) || helperClass.checkIfUserIsDean(user) || helperClass.checkIfUserIsProvost(user))request.setAttribute("isAdmin", "ADMIN");
+
+        	request.setAttribute("redirect_URL", Setup.GOOGLE_AUTH_URL);
         return new ModelAndView("landingPage");
         }
         return new ModelAndView("redirect:/logInPage.html");
@@ -310,6 +388,16 @@ public class TestController {
         request.setAttribute("task", taskService.findTask(id));
         request.setAttribute("mode", "MODE_UPDATE");
         return new ModelAndView("index");
+    }
+
+
+    @RequestMapping("/update-order")
+    public ModelAndView updateOrder(@RequestParam int id, @RequestParam String userRole,HttpServletRequest request){
+        helperClass.approveOrder(id, userRole);
+       
+        
+        
+        return new ModelAndView("redirect:/approvals");
     }
     @RequestMapping("/delete-task")
     public ModelAndView deleteTask(@RequestParam int id,HttpServletRequest request){

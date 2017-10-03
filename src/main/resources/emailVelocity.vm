@@ -1,0 +1,17 @@
+<html>
+ <body>
+  <h3>Hi ${user} </h3>
+  <div>
+
+  There is a textbook order request raised for course no: ${course} by ${instructor}. Please log-in to your account and approve the request.
+  The link to access the application is <a href="http://localhost:8080/landingPage.html"> Textbook Ordering Application</a>.
+  </div>
+
+
+
+
+  <h3>Thanks</h3>
+  <h3>Textbook ordering Application </h3>
+
+ </body>
+</html>

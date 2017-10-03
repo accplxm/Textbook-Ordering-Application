@@ -47,6 +47,34 @@
 			</div>
 
 			<div class="form-group">
+				<label class="control-label col-md-3"> Select Term</label>
+
+				<div class="col-md-7 selectContainer">
+					<select class="form-control" name="term">
+						<c:forEach var="term" items="${terms}">
+							<option  value="${term.term_id}">
+								<c:out value="${term.semester}- ${term.year}" />
+							</option>
+						</c:forEach>
+					</select>
+
+
+				</div>
+			</div>
+
+
+			<div class="form-group">
+				<label class="control-label col-md-3"> Is Textbook Required</label>
+				<div class="col-md-7">
+					<input type="radio" class="col-sm-1" id= "radio-textrequiredYes" name="textbookRequired" value=true
+						text="Yes" checked />
+				<div class="col-sm-1"> Yes</div>
+						 <input type="radio" id= "radio-textrequiredNo" class="col-sm-1" name="textbookRequired"
+						value=false text="No" />
+				<div class="col-sm-1"> No</div>
+				</div>
+
+			<div id = "table-divison" class="form-group tableToHide">
 				<div class="row clearfix">
 					<div class="col-md-12 column">
 						<table class="table table-bordered table-hover" id="tab_logic">
@@ -83,7 +111,23 @@
 									<td><input type="text" name='isebooksok0'
 										placeholder='Are Ebooks Ok' class="form-control" /></td>
 								</tr>
+								<tr id = 'previoustextbook0'>
+								<td align="center" colspan="9"> <label class="control-label col-md-3"> Select from previous textbook</label>
+
+				<div class="col-md-7 selectContainer">
+					<select class="form-control" name="previoustext0">
+						<c:forEach var="textbook" items="${textbooks}">
+							<option  value="${textbook.textbook_id}">
+								<c:out value="${textbook.title}- ${textbook.author} - ${textbook.edition}- ${textbook.isbn}" />
+							</option>
+						</c:forEach>
+					</select>
+
+
+				</div>    </td>
+								</tr>
 								<tr id='textbook1'></tr>
+								<tr id='previoustextbook1'></tr>
 							</tbody>
 						</table>
 					</div>
