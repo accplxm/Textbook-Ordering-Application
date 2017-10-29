@@ -2,7 +2,7 @@ package com.example.springStarter.model;
 
 import java.io.Serializable;
 import java.util.Date;
-import java.util.Set;
+import java.util.List;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
@@ -22,12 +22,62 @@ import javax.persistence.TemporalType;
 public class Order implements Serializable  {
 
 	  private static final long serialVersionUID = 1L;
-	  public  enum status{dean,chair,done,faculty,notApproved};
+	  public  enum status{dean,chair,done,faculty,notApproved,provost};
 	  @Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int order_id;
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date orderdate;
+	@Temporal(TemporalType.TIMESTAMP)
+	private Date chairapproveddate;
+	@Temporal(TemporalType.TIMESTAMP)
+	private Date deanapproveddate;
+	@Temporal(TemporalType.TIMESTAMP)
+	private Date vicepresidentapproveddate;
+
+	private boolean isrejected;
+	private String rejectioncomments;
+
+	public boolean isIsrejected() {
+		return isrejected;
+	}
+
+	public void setIsrejected(boolean isrejected) {
+		this.isrejected = isrejected;
+	}
+
+	public String getRejectioncomments() {
+		return rejectioncomments;
+	}
+
+	public void setRejectioncomments(String rejectioncomments) {
+		this.rejectioncomments = rejectioncomments;
+	}
+
+	public Date getChairapproveddate() {
+		return chairapproveddate;
+	}
+
+	public void setChairapproveddate(Date chairapproveddate) {
+		this.chairapproveddate = chairapproveddate;
+	}
+
+	public Date getDeanapproveddate() {
+		return deanapproveddate;
+	}
+
+	public void setDeanapproveddate(Date deanapproveddate) {
+		this.deanapproveddate = deanapproveddate;
+	}
+
+	public Date getVicepresidentapproveddate() {
+		return vicepresidentapproveddate;
+	}
+
+	public void setVicepresidentapproveddate(Date vicepresidentapproveddate) {
+		this.vicepresidentapproveddate = vicepresidentapproveddate;
+	}
+
 	@ManyToOne
 	@JoinColumn(name = "term_id")
 	private Term term;
@@ -36,10 +86,10 @@ public class Order implements Serializable  {
 	private User user;
 	private String status ;
 	private String comments;
-	private String istextusedlater;
+	private Boolean istextusedlater;
 
-	@OneToMany(targetEntity = ClassOrder.class, mappedBy = "order",fetch=FetchType.LAZY, cascade=CascadeType.ALL)
-	private Set<ClassOrder> classOrders;
+	@OneToMany(targetEntity = ClassOrder.class, mappedBy = "order",fetch=FetchType.EAGER, cascade=CascadeType.ALL)
+	private List<ClassOrder> classOrders;
 
 	public int getOrder_id() {
 		return order_id;
@@ -91,25 +141,28 @@ public class Order implements Serializable  {
 		this.comments = comments;
 	}
 
-	public String getIstextusedlater() {
+
+
+	public Boolean getIstextusedlater() {
 		return istextusedlater;
 	}
 
-	public void setIstextusedlater(String istextusedlater) {
+	public void setIstextusedlater(Boolean istextusedlater) {
 		this.istextusedlater = istextusedlater;
-	}
-
-	public Set<ClassOrder> getClassOrders() {
-		return classOrders;
 	}
 
 	public Order() {
 		super();
 	}
 
-	public void setClassOrders(Set<ClassOrder> classOrders) {
+	public List<ClassOrder> getClassOrders() {
+		return classOrders;
+	}
+
+	public void setClassOrders(List<ClassOrder> classOrders) {
 		this.classOrders = classOrders;
 	}
+
 
 
 

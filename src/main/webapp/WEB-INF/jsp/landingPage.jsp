@@ -3,7 +3,7 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <html lang="en">
 <head>
-<title>Bootstrap Example</title>
+<title>Murray State University Textbook Ordering Application</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
@@ -13,6 +13,8 @@
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script
 	src="static/js/activeselection.js"></script>
+	<script
+	src="static/js/imageslider.js"></script>
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style>
@@ -60,6 +62,16 @@ footer {
 <body>
 
 	<div class="row">
+	<!-- <div class=container id = "imageslider">
+  <a href="#" class="arrowL">&lt;</a>
+  <div id="slideshow">
+    <div><img src="http://unsplash.it/620/450?image=401"/></div>
+    <div class="hidden"><img src="static/images/LandingPage_Image.png"/></div>
+    <div class="hidden"><img src="static/images/LandingPage_Image.png"/></div>
+  </div>
+  <a href="#" class="arrowR">&gt;</a>
+</div> -->
+
 		<div class="col-lg-12 bordermargin borderpadding">
 			<img class="img-responsive borderpadding"
 				style="vertical-align: middle"
@@ -89,7 +101,10 @@ footer {
 					<li class= <c:if test="${page == 'PAGE_ORDERTEXTBOOK'}">"active"</c:if>><a href="ordertextbook" id="third_tab">Order Textbook</a></li>
 					<li class = <c:if test="${page == 'PAGE_ORDERSTATUS'}">"active"</c:if>><a href="orderstatus"  id="fourth_tab">Order Status</a></li>
 					<c:if test="${isAdmin == 'ADMIN'}"><li class = <c:if test="${page == 'PAGE_APPROVALS'}">"active"</c:if>><a href="approvals" id="fifth_tab">Approvals</a></li></c:if>
-					<li class = <c:if test="${page == 'PAGE_PROFILE'}">"active"</c:if>><a href="profile" id="fifth_tab">Profile</a></li>
+					<c:if test="${isProvost == 'PROVOST'}"><li class = <c:if test="${page == 'PAGE_APPROVEDPAGES'}">"active"</c:if>><a href="afterapprovals" id="sixth_tab">Approved Applications</a></li></c:if>
+					<li class = <c:if test="${page == 'PAGE_PROFILE'}">"active"</c:if>><a href="profile" id="seventh_tab">Profile</a></li>
+					<c:if test="${user.isadmin}"><li class = <c:if test="${page == 'PAGE_ADMIN'}">"active"</c:if>><a href="admin" id="eigth_tab">Admin</a></li></c:if>
+
 
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
@@ -109,19 +124,11 @@ footer {
 
 			<div class="col-sm-1 sidenav"></div>
 			<div class="col-sm-10 text-left">
-				<h1>Welcome</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-					do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-					enim ad minim veniam, quis nostrud exercitation ullamco laboris
-					nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat
-					cupidatat non proident, sunt in culpa qui officia deserunt mollit
-					anim id est laborum consectetur adipiscing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-					minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-					aliquip ex ea commodo consequat.</p>
+				<h1>Welcome to textbook Ordering Application</h1>
+				<p>This is application for filling out application for textbook each semester by each professor.
+				This Application helps in processing the application sending reminders about the textbook order form deadlines.</p>
 				<hr>
-				<h3>Test</h3>
-				<p>Lorem ipsum...</p>
+
 			</div>
 			<div class="col-sm-1 sidenav"></div>
 		</div>
@@ -137,14 +144,20 @@ footer {
 <jsp:include page="approvals.jsp"></jsp:include>
 </c:when>
 <c:when test="${page == 'PAGE_PROFILE'}">
-<jsp:include page="profile.jsp"></jsp:include>
+<jsp:include page="editprofile.jsp"></jsp:include>
+</c:when>
+<c:when test="${page == 'PAGE_APPROVEDPAGES'}">
+<jsp:include page="afterapprovals.jsp"></jsp:include>
+</c:when>
+<c:when test="${page == 'PAGE_ADMIN'}">
+<jsp:include page="admin.jsp"></jsp:include>
 </c:when>
 
 		</c:choose>
 
 
 	<footer class="container-fluid text-center">
-		<p>Footer Text</p>
+		<p>This the textbook ordering application</p>
 	</footer>
 
 </body>

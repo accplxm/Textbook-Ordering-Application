@@ -30,6 +30,7 @@ public class Textbook implements Serializable{
 			private String publisher;
 			private boolean iscoderequired;
 			private boolean isebooksok;
+			private String acceptableeditions;
 
 
 			@OneToMany(targetEntity = ClassOrder.class, mappedBy = "textbook",fetch=FetchType.LAZY, cascade=CascadeType.ALL)
@@ -138,6 +139,16 @@ public class Textbook implements Serializable{
 
 			public void setClassOrders(Set<ClassOrder> classOrders) {
 				this.classOrders = classOrders;
+			}
+
+
+			public String getAcceptableeditions() {
+				return acceptableeditions;
+			}
+
+
+			public void setAcceptableeditions(String acceptableeditions) {
+				this.acceptableeditions = acceptableeditions;
 			}
 
 

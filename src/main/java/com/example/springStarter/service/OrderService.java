@@ -8,6 +8,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.example.springStarter.dao.OrderRepository;
 import com.example.springStarter.model.Order;
+import com.example.springStarter.model.Term;
 import com.example.springStarter.model.User;
 
 
@@ -61,5 +62,11 @@ public class OrderService {
 		}
 
 
+
+		public List<Order> findAllByTerm(Term term){
+
+			return orderRepository.findAllByTerm(term);
+
+		}
 
 }

@@ -22,7 +22,7 @@
 
 
 	<div class="container text-center">
-		<h3>Current Order status for "${user.firstname}" "${user.lastname}" </h3>
+		<h3>Current Order status for "${user.firstname} ${user.lastname}" </h3>
 		<hr>
 
 
@@ -41,6 +41,8 @@
 									<th class="text-center">Order Status</th>
 									<th class="text-center">Term ordered</th>
 									<th class="text-center">Order Comments</th>
+									<th class="text-center">Edit Order</th>
+									<th class="text-center">Is Rejected</th>
 
 								</tr>
 							</thead>
@@ -50,12 +52,23 @@
 
 									<td>${order.orderdate}</td>
 									<td>${order.user.lastname} ${order.user.firstname} </td>
-									<td>${order.user.lastname} ${order.user.firstname} </td>
+									<c:choose>
+  										<c:when test="${empty order.classOrders[0].textbook}">
+  										<td>0</td>
+  										</c:when>
+  										<c:otherwise>
+  										<td>${order.classOrders.size()} </td>
+  										</c:otherwise>
+  										</c:choose>
+
+
 									<td>${order.user.department.department}</td>
-									<td>${order.user.lastname} ${order.user.firstname}</td>
-									<td>${order.user.lastname} ${order.status}</td>
-									<td>${order.user.lastname} ${order.user.firstname}</td>
-									<td>${order.user.lastname} ${order.user.firstname}</td>
+									<td>${order.classOrders[0].course.classname}</td>
+									<td>${order.status}</td>
+									<td>${order.term.semester} ${order.term.year}</td>
+									<td>${order.comments}</td>
+									<td><a class=" btn btn-info" href="edit-order?id=${order.order_id}&userRole=${user.role}" onclick="return confirm('Are you sure to proceed?')">Edit</a></td>
+									<td>${order.isrejected}</td>
 
 								</tr>
 								 </c:forEach>

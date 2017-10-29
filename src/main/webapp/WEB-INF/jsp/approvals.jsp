@@ -40,7 +40,7 @@
 									<th class="text-center">Course Name</th>
 									<th class="text-center">Order Status</th>
 									<th class="text-center">Term ordered</th>
-									<th class="text-center">Approve Order</th>
+									<th class="text-center">Change Order Status</th>
 
 								</tr>
 							</thead>
@@ -50,12 +50,23 @@
 
 									<td>${order.orderdate}</td>
 									<td>${order.user.lastname} ${order.user.firstname} </td>
-									<td>${order.user.lastname} ${order.user.firstname} </td>
+									<c:choose>
+  										<c:when test="${empty order.classOrders[0].textbook}">
+  										<td>0</td>
+  										</c:when>
+  										<c:otherwise>
+  										<td>${order.classOrders.size()} </td>
+  										</c:otherwise>
+  										</c:choose>
+
+
 									<td>${order.user.department.department}</td>
-									<td>${order.user.lastname} ${order.user.firstname}</td>
+									<td>${order.classOrders[0].course.classname}</td>
 									<td>${order.status}</td>
 									<td>${order.term.semester} ${order.term.year}</td>
-									<td><a href="update-order?id=${order.order_id}&userRole=${user.role}"><span class= "glyphicon glyphicon-pencil"></</span></td>
+									<td><a href="checkorder?order=${order.order_id}" target="_blank"> change Order status</a></td>
+
+									<%-- <td><a href="update-order?id=${order.order_id}&userRole=${user.role}"><span class= "glyphicon glyphicon-pencil"></</span></td> --%>
 
 								</tr>
 								 </c:forEach>

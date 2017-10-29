@@ -8,6 +8,9 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.example.springStarter.dao.ClassorderRepository;
 import com.example.springStarter.model.ClassOrder;
+import com.example.springStarter.model.Course;
+import com.example.springStarter.model.Order;
+import com.example.springStarter.model.Textbook;
 
 
 
@@ -47,6 +50,8 @@ public class ClassOrderService {
 
 
 
-
+		public List<ClassOrder> findAllByCourseAndOrderAndTextbook(Course course, Order order,Textbook textbook){
+			return classorderRepository.findAllByCourseAndOrderAndTextbook(course,order,textbook);
+		}
 
 }

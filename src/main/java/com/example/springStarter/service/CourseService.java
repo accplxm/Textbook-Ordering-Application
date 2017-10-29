@@ -33,8 +33,8 @@ public class CourseService {
 			return courses;
 		}
 
-		public void save(Course course){
-			courseRepository.save(course);
+		public Course save(Course course){
+			return courseRepository.save(course);
 		}
 
 		public void delete(int id){
@@ -46,7 +46,17 @@ public class CourseService {
 		}
 
 
+		public List<Course> findCoursesByDepartmentAndTermAndOrderStatus(int departmentId,int  termId,String orderStatus){
+			return courseRepository.findCoursesByDepartmentAndTermAndOrderStatus(departmentId, termId,orderStatus);
+		}
 
+		public List<Object> findCoursesAndOrderByDepartmentAndTerm(int departmentId,int  termId,String orderStatus){
+			return courseRepository.findCoursesAndOrdersByDepartmentAndTerm(departmentId, termId, orderStatus);
+		}
+
+		public List<Course> findCoursesByDepartmentAndTerm(int departmentId,int  termId){
+		return courseRepository.findCoursesByDepartmentAndTerm(departmentId, termId);
+}
 
 
 }

@@ -26,6 +26,19 @@ public class User implements Serializable  {
 	private String emailid;
 	private String role;
 	private String initials;
+	private Boolean isadmin;
+	public Boolean getIsadmin() {
+		return isadmin;
+	}
+
+
+
+	public void setIsadmin(Boolean isadmin) {
+		this.isadmin = isadmin;
+	}
+
+
+
 	@ManyToOne
 	@JoinColumn(name = "department_id")
 	private Department department;

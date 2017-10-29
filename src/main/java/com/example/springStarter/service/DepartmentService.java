@@ -15,28 +15,28 @@ import com.example.springStarter.model.Department;
 @Transactional
 public class DepartmentService {
 
-	
-		
+
+
 		private final DepartmentRepository departmentRepository;
-		
-		
+
+
 		public DepartmentService(DepartmentRepository departmentRepository){
 			this.departmentRepository=departmentRepository;
 		}
-		
+
 		public List<Department> findAll(){
 			List<Department> departments = new ArrayList<>();
-			
+
 			for(Department department: departmentRepository.findAll()){
 				departments.add(department);
 			}
 			return departments;
 		}
-		
-		public void save(Department department){
-			departmentRepository.save(department);
+
+		public Department save(Department department){
+			return departmentRepository.save(department);
 		}
-		
+
 		public void delete(int id){
 			departmentRepository.delete(id);
 		}
@@ -44,9 +44,9 @@ public class DepartmentService {
 		public Department finddepartmentById(int id){
 			return departmentRepository.findOne(id);
 		}
-		
-		
 
-	
+
+
+
 
 }

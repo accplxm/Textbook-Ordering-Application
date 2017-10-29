@@ -7,6 +7,7 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 import com.example.springStarter.model.Order;
+import com.example.springStarter.model.Term;
 import com.example.springStarter.model.User;
 
 @Repository
@@ -19,4 +20,6 @@ public interface OrderRepository  extends CrudRepository<Order, Integer> {
 	@Query("SELECT o FROM order_table o INNER JOIN o.user u INNER JOIN u.department d where d.department_id = ?1 and o.status = ?2")
 	List<Order> findUserByDepartmentAndUserRole(int departmentId,String role);
 
+
+	List<Order> findAllByTerm(Term term);
 }

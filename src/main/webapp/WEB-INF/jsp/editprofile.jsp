@@ -34,10 +34,16 @@
 
 
 	<div class="container text-center">
-		<h3>Hello ${user.firstname} please give more details about you ${user.emailid} </h3>
+		<h3> Edit Profile of ${user.emailid} </h3>
+		<c:if test="${not empty status}">
+<h3 class="text-center text-primary"> ${status}</h3>
+</c:if>
+
 		<hr>
-		<form class="form-horizontal" method="POST" action="save-user" name="firstLoginDataForm" onsubmit="return validateFirstLoginDataForm()">
-			<input type="hidden" name="id" value="${user.user_id}" />
+		<form class="form-horizontal" method="POST" action="edit-profile" name="firstLoginDataForm" onsubmit="return validateFirstLoginDataForm()">
+			<input type="hidden" name="user_id" value="${user.user_id}" />
+			<input type="hidden" name="isadmin" value="${user.isadmin}" />
+			<input type="hidden" name="role" value="${user.role}" />
 			<input type="hidden" name="emailid" value="${user.emailid}" />
 			<label class="control-label" id= "error" style="color:red; font-size:20px; text-align: left;"></label>
 			<div class="form-group">
@@ -45,7 +51,7 @@
 			<div class= "col-md-7">
 			<select class ="form-control" name="department">
         <c:forEach var="department" items="${departments}">
-            <option  value="${department.department_id}">
+            <option  value="${user.department.department_id}"   ${user.department.department_id == department.department_id ? 'selected' : ''}>
                 <c:out value="${department.departmentname}"/>
             </option>
         </c:forEach>
@@ -82,13 +88,13 @@
 			</div>
 			</div>
 			<div class="form-group">
-			<input type="checkbox" name="authorize" id= "authorize"> Clicking this will authorize usage of your initials as your electronic signature <br>
+			<input type="checkbox" name="authorize" id= "authorize" checked disabled="disabled"> Clicking this will authorize usage of your initials as your electronic signature <br>
 			</div>
 
 
 			<div class="form-group">
 
-				<input type="submit" class="btn btn-primary" value="Save"/>
+				<input type="submit" class="btn btn-primary" value="Update" onclick="return confirm('Are you sure to proceed?')"/>
 			</div>
 
 

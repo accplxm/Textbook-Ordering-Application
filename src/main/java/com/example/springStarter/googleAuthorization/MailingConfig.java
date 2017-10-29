@@ -2,6 +2,7 @@ package com.example.springStarter.googleAuthorization;
 
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 
@@ -14,6 +15,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.ui.velocity.VelocityEngineUtils;
+
+import com.example.springStarter.model.Course;
+import com.example.springStarter.model.Order;
 
 @Configuration
   public class MailingConfig {
@@ -57,6 +61,29 @@ import org.springframework.ui.velocity.VelocityEngineUtils;
         sender.send(message);
     }
 
+
+    @SuppressWarnings("deprecation")
+ 	public void deadlineEmail(String userName, String sentToAddress, String Subject,List<Order> orders,String semster,String deadlineDate ) throws Exception {
+         MimeMessage message = sender.createMimeMessage();
+
+         MimeMessageHelper helper = new MimeMessageHelper(message);
+
+         Map<String, Object> model = new HashMap<String, Object>();
+         model.put("user", userName);
+//         model.put("courses", courses);
+         model.put("deadlinedate", deadlineDate);
+         model.put("semestername", semster);
+         model.put("orders", orders);
+         String text = VelocityEngineUtils.mergeTemplateIntoString(velocityEngine, "deadlineMail.vm", model);
+
+         helper.setTo(sentToAddress);
+         helper.setText(text, true); // set to html
+         helper.setSubject(Subject);
+
+         sender.send(message);
+     }
+
+
     @SuppressWarnings("deprecation")
    	public void sendMailToDean(String userName, String sentToAddress, String Subject,String instructor ) throws Exception {
            MimeMessage message = sender.createMimeMessage();
@@ -87,6 +114,28 @@ import org.springframework.ui.velocity.VelocityEngineUtils;
 //           model.put("course", courseName);
            model.put("instructor", instructor);
            String text = VelocityEngineUtils.mergeTemplateIntoString(velocityEngine, "MailToProvost.vm", model);
+
+           helper.setTo(sentToAddress);
+           helper.setText(text, true); // set to html
+           helper.setSubject(Subject);
+
+           sender.send(message);
+       }
+
+    @SuppressWarnings("deprecation")
+   	public void sendRejectionMail(String rejectioncooments,String userName, String sentToAddress, String Subject,String instructor,String rejectedPersonName,String courseName,String role ) throws Exception {
+           MimeMessage message = sender.createMimeMessage();
+
+           MimeMessageHelper helper = new MimeMessageHelper(message);
+
+           Map<String, Object> model = new HashMap<String, Object>();
+           model.put("user", userName);
+        model.put("course", courseName);
+           model.put("instructor", instructor);
+           model.put("role", role);
+           model.put("rejectedPersonName", instructor);
+           model.put("rejectioncomments", rejectioncooments);
+           String text = VelocityEngineUtils.mergeTemplateIntoString(velocityEngine, "rejectionMail.vm", model);
 
            helper.setTo(sentToAddress);
            helper.setText(text, true); // set to html

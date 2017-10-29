@@ -47,6 +47,14 @@ public class TextbookService {
 
 
 
+		public List<Textbook> findTextbooksByTermAndCourse(int termId,int courseId,int orderId){
+			return textbookRepository.findTextbooksByTermAndCourse(termId, courseId,orderId);
+		}
+
+		public List<Textbook> findAllByTitleAndAuthorAndCopyrightAndEditionAndIsbnAndPublisher(String title, String author,String copyright, String edition,String isbn,String publisher){
+			return textbookRepository.findAllByTitleAndAuthorAndCopyrightAndEditionAndIsbnAndPublisher(title,author,copyright,edition,isbn,publisher);
+		}
+
 
 
 }
