@@ -3,7 +3,6 @@ $(document).ready(function(){
 
    $("#myform").submit(function(){
 
-	   alert("123");
    	  var search = $("#books").val();
    	  if(search == "")
    	  {
