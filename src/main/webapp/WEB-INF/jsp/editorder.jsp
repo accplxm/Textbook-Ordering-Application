@@ -8,11 +8,16 @@
 <link rel="stylesheet"
 	href="static/css/bootstrap.min.css">
 	<link href="static/css/style.css" rel="stylesheet">
+
+
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 	<script type="text/javascript"
 	src="static/js/activeselection.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
 
 
 <script type="text/javascript"
@@ -25,13 +30,14 @@ function PrintFunction() {
 }
 </script>
 
+
 <link href="static/css/style.css" rel="stylesheet">
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <script type="text/javascript" src="static/js/activeselection.js"></script>
 
-
+<script type="text/javascript" src="static/js/myscript.js"></script>
 </head>
 
 <body>
@@ -203,7 +209,7 @@ function PrintFunction() {
 
 	</div>
 
-
+<jsp:include page="booksearch.jsp"></jsp:include>
 
 
 </body>

@@ -10,7 +10,7 @@
 <link href="static/css/style.css" rel="stylesheet">
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+<script type="text/javascript" src="static/js/myscript.js"></script>
 <script type="text/javascript"
 	src="static/js/activeselection.js"></script>
 
@@ -18,10 +18,10 @@
 <script type="text/javascript"
 	src="static/js/validateordertextbook.js"></script>
 
+
 </head>
 
 <body>
-
 
 
 	<div class="container text-center">
@@ -178,10 +178,11 @@
 
 		</form>
 
+
 	</div>
 
 
 
-
+<jsp:include page="booksearch.jsp"></jsp:include>
 </body>
 </html>

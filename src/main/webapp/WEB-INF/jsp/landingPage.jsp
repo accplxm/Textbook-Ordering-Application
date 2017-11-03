@@ -11,12 +11,15 @@
 	<link href="static/css/style.css" rel="stylesheet">
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 <script
 	src="static/js/activeselection.js"></script>
 	<script
 	src="static/js/imageslider.js"></script>
+
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 <style>
 /* Remove the navbar's default margin-bottom and rounded borders */
 .navbar {
@@ -127,7 +130,11 @@ footer {
 				<h1>Welcome to textbook Ordering Application</h1>
 				<p>This is application for filling out application for textbook each semester by each professor.
 				This Application helps in processing the application sending reminders about the textbook order form deadlines.</p>
-				<hr>
+            <a class="twitter-timeline" width="100%"  href="https://twitter.com/search?q=%23College" data-widget-id="926561609782349824">Tweets about #College</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
 
 			</div>
 			<div class="col-sm-1 sidenav"></div>
@@ -156,9 +163,12 @@ footer {
 		</c:choose>
 
 
-	<footer class="container-fluid text-center">
-		<p>This the textbook ordering application</p>
-	</footer>
+
 
 </body>
+<div style = "margin-top:50px;">
+<footer class="container-fluid text-center">
+		<p>This the textbook ordering application</p>
+	</footer>
+	</div>
 </html>
