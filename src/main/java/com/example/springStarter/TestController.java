@@ -128,7 +128,7 @@ public class TestController {
 
 
         request.setAttribute("page", "PAGE_HOME");
-        request.getSession().setAttribute("userid", 3);
+       // request.getSession().setAttribute("userid", 3);
         if((request.getSession().getAttribute("userid")!=null) && checkifRegisteredUser(request,(int)request.getSession().getAttribute("userid"))){
         request.setAttribute("user", userService.finduserById((int) request.getSession().getAttribute("userid")));
         request.setAttribute("redirect_URL", Setup.GOOGLE_AUTH_URL);
@@ -313,12 +313,7 @@ public class TestController {
     @RequestMapping("/finalapplication")
     public ModelAndView finalApplication(@RequestParam int course, @RequestParam int term,@RequestParam int order,HttpServletRequest request){
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyyy-mm-dd");
-        try {
-            //mailingConfig.sendEmail("Chutiya","dewan.saurabh@ymail.com","chutiyapa waiting for your approval","Hala Madrid","Madrid");
-        } catch (Exception e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
+
         logger.info("Clicked final Application button");
         request.setAttribute("page", "PAGE_FINALAPPLICATION");
 
@@ -422,8 +417,8 @@ public class TestController {
 
         if (userService.finduserById(userid) == null) {
             logger.debug("userid does not exist returning false as user session expired ");
-            //return false;
-            request.getSession().setAttribute("userid", 3);
+            return false;
+            //request.getSession().setAttribute("userid", 3);
         }
 
         return true;
