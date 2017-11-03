@@ -104,7 +104,7 @@ public class TestController {
 //		request.setAttribute("user", user);request.setAttribute("redirect_URL", Setup.GOOGLE_AUTH_URL);
     	 //request.setAttribute("page", "PAGE_HOME");
          // request.getSession().setAttribute("userid", 3);
-          if(!((request.getSession().getAttribute("userid")!=null) && checkifRegisteredUser(request,(int)request.getSession().getAttribute("userid")))){
+          if(((request.getSession().getAttribute("userid")!=null) && checkifRegisteredUser(request,(int)request.getSession().getAttribute("userid")))){
         	  return new ModelAndView("redirect:/landingPage.html");
           }
         logger.info("Entered login page maaping method");
