@@ -130,9 +130,14 @@ footer {
 				<h1>Welcome to textbook Ordering Application</h1>
 				<p>This is application for filling out application for textbook each semester by each professor.
 				This Application helps in processing the application sending reminders about the textbook order form deadlines.</p>
-            <a class="twitter-timeline" width="100%"  href="https://twitter.com/search?q=%23College" data-widget-id="926561609782349824">Tweets about #College</a>
+            <!-- <a class="twitter-timeline" width="100%"  href="https://twitter.com/search?q=%23College" data-widget-id="926561609782349824">Tweets about #College</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+ -->
+
+             <a class="twitter-timeline"  href="https://twitter.com/search?q=%23College%20textbooks" data-widget-id="926561609782349824">Tweets about #College textbooks</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 
