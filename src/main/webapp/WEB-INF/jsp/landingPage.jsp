@@ -137,7 +137,7 @@ footer {
 
  -->
 
-             <a class="twitter-timeline"  href="https://twitter.com/search?q=%23College%20textbooks" data-widget-id="926561609782349824">Tweets about #College textbooks</a>
+             <a class="twitter-timeline" width="100%"  href="https://twitter.com/search?q=%23College%20textbooks" data-widget-id="926561609782349824">Tweets about #College textbooks</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 
