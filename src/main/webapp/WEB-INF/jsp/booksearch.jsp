@@ -12,7 +12,7 @@
 	<div id="search" class="#f5f5f5 grey lighten-4 z-depth-5" style="padding-top: 20px;">
 		<form id="myform">
 			<div class="input-field">
-			<div class= "col-md-5 text-right"><label for="search">Type any string and search Books: </label></div>
+			<div class= "col-md-4 text-right"><label for="search">Type any string and search Books: </label></div>
 				<div class= "col-md-4 text-center" ><input type="search" id="books" placeholder='Title or ISBN number'>
 </div>
 <div class= "col-md-3 text-left">

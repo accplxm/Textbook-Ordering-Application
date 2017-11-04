@@ -4,7 +4,7 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <html>
 <head>
-
+<title>MSU Textbook-Ordering Application</title>
 <link rel="stylesheet"
 	href="static/css/bootstrap.min.css">
 	<link href="static/css/style.css" rel="stylesheet">
