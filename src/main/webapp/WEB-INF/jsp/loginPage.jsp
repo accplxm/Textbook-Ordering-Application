@@ -11,7 +11,7 @@
 <meta http-eqiv="Cache-Control" content="no-cache">
 <meta http-eqiv="Expires" content="Sat, 01 Dec 2001 00:00:00 GMT">
 
-<title>Boot Sample| Home</title>
+<title>MSU Textbook-Ordering Application Log In</title>
 
 <link href="static/css/bootstrap.min.css" rel="stylesheet">
 <link href="static/css/style.css" rel="stylesheet">
@@ -28,7 +28,7 @@
 <h1>Welcome to text book ordering Application </h1>
 </div>
 <c:choose>
-<c:when test="${isInvalidLogIn}"> 
+<c:when test="${isInvalidLogIn}">
 <div class= "col-lg-12 bordermargin" align ="center" ><font color="red">
 <h4>    Invalid log-in. Try log-in using only 'murraystate.edu' email-Id.</h4></font>
 </div>

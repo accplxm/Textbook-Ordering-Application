@@ -22,7 +22,7 @@
 <script type="text/javascript" src="static/js/activeselection.js"></script>
 <script type="text/javascript"
 	src="static/js/validateaddclass.js"></script>
-
+<title>MSU Textbook-Ordering Application</title>
 </head>
 
 <body>
