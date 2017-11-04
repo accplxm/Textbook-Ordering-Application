@@ -4,6 +4,7 @@
 <html lang="en">
 <head>
 <title>Murray State University Textbook Ordering Application</title>
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
@@ -107,7 +108,7 @@ footer {
 					<c:if test="${isProvost == 'PROVOST'}"><li class = <c:if test="${page == 'PAGE_APPROVEDPAGES'}">"active"</c:if>><a href="afterapprovals" id="sixth_tab">Approved Applications</a></li></c:if>
 					<li class = <c:if test="${page == 'PAGE_PROFILE'}">"active"</c:if>><a href="profile" id="seventh_tab">Profile</a></li>
 					<c:if test="${user.isadmin}"><li class = <c:if test="${page == 'PAGE_ADMIN'}">"active"</c:if>><a href="admin" id="eigth_tab">Admin</a></li></c:if>
-
+					<li class= <c:if test="${page == 'PAGE_DEVPROFILE'}">"active"</c:if>><a href="devprofile" id="ninth_tab">Developer Profile</a></li>
 
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
@@ -163,6 +164,9 @@ footer {
 </c:when>
 <c:when test="${page == 'PAGE_ADMIN'}">
 <jsp:include page="admin.jsp"></jsp:include>
+</c:when>
+<c:when test="${page == 'PAGE_DEVPROFILE'}">
+<jsp:include page="devprofile.jsp"></jsp:include>
 </c:when>
 
 		</c:choose>

@@ -91,15 +91,15 @@ public class OAuth2Callback
       GooglePojo data = (GooglePojo)new Gson().fromJson(line1, GooglePojo.class);
       writer.close();
       reader.close();
-      if(!(data.getEmail().split("@")[1].equals("murraystate.edu"))){
-
-    	  //JOptionPane.showMessageDialog(null, "Invalid log-in user.\\n Have to be logged in only using 'murraystate.edu' mail-Id");
-    	  //helperClass.infoBox("Invalid log-in user.\\n Have to be logged in only using 'murraystate.edu' mail-Id", "Invalid Log-In");
-    	  //model.addAttribute("attribute","redirectWithRedirectPrefix");
-    	  TestController.isInvalidLogIn=true;
-    	  request.setAttribute("isInvalidLogIn", true);
-    	  return new ModelAndView("forward:/logInPage.html");
-      }else{
+//      if(!(data.getEmail().split("@")[1].equals("murraystate.edu"))){
+//
+//    	  //JOptionPane.showMessageDialog(null, "Invalid log-in user.\\n Have to be logged in only using 'murraystate.edu' mail-Id");
+//    	  //helperClass.infoBox("Invalid log-in user.\\n Have to be logged in only using 'murraystate.edu' mail-Id", "Invalid Log-In");
+//    	  //model.addAttribute("attribute","redirectWithRedirectPrefix");
+//    	  TestController.isInvalidLogIn=true;
+//    	  request.setAttribute("isInvalidLogIn", true);
+//    	  return new ModelAndView("forward:/logInPage.html");
+//      }else{
 
       request.setAttribute("auth", data);
       //model.addAttribute("attribute","redirectWithRedirectPrefix");
@@ -120,7 +120,7 @@ public class OAuth2Callback
 
 
 	  return new ModelAndView("redirect:/landingPage.html");
-      }
+//      }
       }
      // request.getRequestDispatcher("/google.jsp").forward(request, response);
     }

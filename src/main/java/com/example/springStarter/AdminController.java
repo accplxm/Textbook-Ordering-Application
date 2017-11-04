@@ -460,6 +460,21 @@ public class AdminController {
          return new ModelAndView("redirect:/logInPage.html");
      }
 
+     @RequestMapping("/devprofile")
+     public ModelAndView DevProfile(HttpServletRequest request){
+
+    	 request.setAttribute("page", "PAGE_DEVPROFILE");
+         if((request.getSession().getAttribute("userid")!=null) && testController.checkifRegisteredUser(request,(int)request.getSession().getAttribute("userid"))){
+         User user =userService.finduserById((int)request.getSession().getAttribute("userid"));
+         helperClass.setRequestVariablesForAdmin(user,request);
+         request.setAttribute("departments",departmentService.findAll() );
+         request.setAttribute("user", user);request.setAttribute("redirect_URL", Setup.GOOGLE_AUTH_URL);
+         return new ModelAndView("landingPage");
+         }
+         return new ModelAndView("redirect:/logInPage.html");
+     }
+
+
 
      @RequestMapping("/profile")
      public ModelAndView Profile(HttpServletRequest request){
@@ -474,6 +489,8 @@ public class AdminController {
          }
          return new ModelAndView("redirect:/logInPage.html");
      }
+
+
 
 
      @RequestMapping("/edit-profile")
