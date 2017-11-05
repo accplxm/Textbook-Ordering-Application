@@ -10,14 +10,18 @@ import javax.mail.internet.MimeMessage;
 
 import org.apache.velocity.app.VelocityEngine;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.sendgrid.SendGridProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.ui.velocity.VelocityEngineUtils;
 
+import com.example.springStarter.Constants.Setup;
 import com.example.springStarter.model.Course;
 import com.example.springStarter.model.Order;
+import com.sendgrid.SendGrid;
+import com.sendgrid.SendGrid.Email;
 
 @Configuration
   public class MailingConfig {
@@ -28,6 +32,8 @@ import com.example.springStarter.model.Order;
 
     @Autowired
     private VelocityEngine velocityEngine;
+
+
 
 
     @Bean
@@ -45,6 +51,14 @@ import com.example.springStarter.model.Order;
     @SuppressWarnings("deprecation")
 	public void sendEmail(String userName, String sentToAddress, String Subject, String courseName,String instructor ) throws Exception {
         MimeMessage message = sender.createMimeMessage();
+        SendGrid sendGrid = new SendGrid(Setup.SENDGRID_USERNAME,Setup.SENDGRID_PASSWORD);
+        Email email = new Email();
+        email.addTo(sentToAddress);
+        email.addToName("HAri");
+        email.setFrom("hariharih8@gmail.com");
+        email.setSubject("Heello");
+        email.setText("Try");
+        sendGrid.send(email);
 
         MimeMessageHelper helper = new MimeMessageHelper(message);
 
@@ -87,7 +101,14 @@ import com.example.springStarter.model.Order;
     @SuppressWarnings("deprecation")
    	public void sendMailToDean(String userName, String sentToAddress, String Subject,String instructor ) throws Exception {
            MimeMessage message = sender.createMimeMessage();
-
+           SendGrid sendGrid = new SendGrid(Setup.SENDGRID_USERNAME,Setup.SENDGRID_PASSWORD);
+           Email email = new Email();
+           email.addTo(sentToAddress);
+           email.addToName("HAri");
+           email.setFrom("hariharih8@gmail.com");
+           email.setSubject("Heello");
+           email.setText("Try");
+           sendGrid.send(email);
            MimeMessageHelper helper = new MimeMessageHelper(message);
 
            Map<String, Object> model = new HashMap<String, Object>();
