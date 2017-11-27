@@ -15,8 +15,8 @@
 
 <script
 	src="static/js/activeselection.js"></script>
-	<script
-	src="static/js/imageslider.js"></script>
+
+
 
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -61,31 +61,94 @@ footer {
 		height: auto;
 	}
 }
+
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
 </style>
 </head>
 <body>
 
-	<div class="row">
-	<!-- <div class=container id = "imageslider">
-  <a href="#" class="arrowL">&lt;</a>
-  <div id="slideshow">
-    <div><img src="http://unsplash.it/620/450?image=401"/></div>
-    <div class="hidden"><img src="static/images/LandingPage_Image.png"/></div>
-    <div class="hidden"><img src="static/images/LandingPage_Image.png"/></div>
-  </div>
-  <a href="#" class="arrowR">&gt;</a>
-</div> -->
+	<div class="container ">
 
-		<div class="col-lg-12 bordermargin borderpadding">
-			<img class="img-responsive borderpadding"
-				style="vertical-align: middle"
+
+		 <div class="bordermargin borderpadding text-center">
+			<img class="img-responsive borderpadding" height="20"
+				style="align: center"
 				src="static/images/LandingPage_Image.png">
 		</div>
-		<!-- </div>
-<div class= "col-lg-8 text-left bordermargin borderpadding" style="vertical-align:middle" >
-<h1> Text book ordering Application</h1>
-</div> -->
+
 	</div>
+
+
+<br>
+
 
 	<nav class="navbar navbar-inverse">
 		<div class="container-fluid">
@@ -128,15 +191,11 @@ footer {
 
 			<div class="col-sm-1 sidenav"></div>
 			<div class="col-sm-10 text-left">
-				<h1>Welcome to textbook Ordering Application</h1>
-				<p>This is application for filling out application for textbook each semester by each professor.
-				This Application helps in processing the application sending reminders about the textbook order form deadlines.</p>
-            <!-- <a class="twitter-timeline" width="100%"  href="https://twitter.com/search?q=%23College" data-widget-id="926561609782349824">Tweets about #College</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				<h1>Welcome to Textbook Ordering Application</h1>
+				<p>This application is useful for professors,chair person, dean and provost office in processing the textbook ordering forms.<br>
+				Application main functionality is to process textbook orders raised for each course every semester. Each textbook order from this application follows this order: <br>
+				 			Faculty request > Chairperson of department > Dean of college > Provost office
 
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
- -->
 
              <a class="twitter-timeline" width="100%"  href="https://twitter.com/search?q=%23College%20textbooks" data-widget-id="926561609782349824">Tweets about #College textbooks</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>

@@ -1,9 +1,11 @@
 package com.example.springStarter;
 
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Map;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
@@ -11,14 +13,19 @@ import javax.servlet.http.HttpServletRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.example.springStarter.Constants.Setup;
+import com.example.springStarter.dao.CourseRepository;
 import com.example.springStarter.googleAuthorization.MailingConfig;
 import com.example.springStarter.model.ClassOrder;
 import com.example.springStarter.model.Course;
@@ -155,10 +162,10 @@ public class TestController {
             //if(helperClass.checkIfUserIsChair(user) || helperClass.checkIfUserIsDean(user) || helperClass.checkIfUserIsProvost(user))request.setAttribute("isAdmin", "ADMIN");
             request.setAttribute("user", user);request.setAttribute("redirect_URL", Setup.GOOGLE_AUTH_URL);
         request.setAttribute("user",userService.finduserById((int)request.getSession().getAttribute("userid")));
-        request.setAttribute("courses",courseService.findAll() );
+        request.setAttribute("courses",courseService.findAllByDepartment(user.getDepartment()));
         request.setAttribute("textbooks",textbookService.findAll() );
         request.setAttribute("terms",termService.findAll() );
-
+        request.setAttribute("departments",departmentService.findAll() );
         return new ModelAndView("landingPage");
         }
         return new ModelAndView("redirect:/logInPage.html");
@@ -212,7 +219,15 @@ public class TestController {
         order.setComments(request.getParameter("ordercomments"));
        order.setStatus(status.chair.toString());
         order.setIstextusedlater(Boolean.parseBoolean(request.getParameter("textbookRequired")));
-        order.setOrderdate(new Date());
+
+        try {
+        	SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-mm-dd");
+
+			order.setOrderdate((Date)dateFormat.parse(helperClass.getCurrentDate()));
+		} catch (ParseException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
         order= orderService.save(order);
         logger.debug("Created Order : " +order.getOrder_id());
         //Create class_order with each textbook and order_id
@@ -255,6 +270,14 @@ public class TestController {
 //        request.setAttribute("page", "PAGE_ORDERSTATUS");
         return new ModelAndView("redirect:/logInPage.html");
     }
+
+
+    @RequestMapping(value="/getCourseList",method=RequestMethod.POST)
+    public @ResponseBody List<Course> getCourseList(@RequestBody Map<String, String> department){
+
+        return courseService.findAllByDepartment(departmentService.finddepartmentById(Integer.parseInt(department.get("departmentId"))));
+    }
+
 
 
 
@@ -331,7 +354,7 @@ public class TestController {
 
             // get term and department
             request.setAttribute("term", termService.findtermById(term));
-            request.setAttribute("todaydate", dateFormat.format(new Date()));
+            request.setAttribute("todaydate", helperClass.getCurrentDate());
             Course selectedCourse = courseService.findCourseById(course);
             request.setAttribute("course", selectedCourse);
 
@@ -504,7 +527,7 @@ public class TestController {
 
     @RequestMapping("/save-task")
     public ModelAndView saveTask(@ModelAttribute Task task,BindingResult bindingResult,HttpServletRequest request){
-        task.setDateCreated(new Date());
+        //task.setDateCreated(helperClass.getCurrentDate());
         taskService.save(task);
         request.setAttribute("mode", "MODE_TASKS");
         request.setAttribute("tasks", taskService.findAll());

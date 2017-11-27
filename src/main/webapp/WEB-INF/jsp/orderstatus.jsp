@@ -22,7 +22,7 @@
 
 
 	<div class="container text-center">
-		<h3>Current Order status for "${user.firstname} ${user.lastname}" </h3>
+		<h3>Current Order Status for "${user.firstname} ${user.lastname}" </h3>
 		<hr>
 
 
@@ -42,7 +42,7 @@
 									<th class="text-center">Term ordered</th>
 									<th class="text-center">Order Comments</th>
 									<th class="text-center">Edit Order</th>
-									<th class="text-center">Is Rejected</th>
+									<th class="text-center">Is Order Rejected</th>
 
 								</tr>
 							</thead>
@@ -64,7 +64,7 @@
 
 									<td>${order.user.department.department}</td>
 									<td>${order.classOrders[0].course.classname}</td>
-									<td>${order.status}</td>
+									<td>waiting for '${order.status}' approval</td>
 									<td>${order.term.semester} ${order.term.year}</td>
 									<td>${order.comments}</td>
 									<td><a class=" btn btn-info" href="edit-order?id=${order.order_id}&userRole=${user.role}" onclick="return confirm('Are you sure to proceed?')">Edit</a></td>

@@ -69,7 +69,7 @@ ${selectedterm.semester}- ${selectedterm.year}j</h4>
 <h4 style= "font-weight:bold; text-overflow: ellipsis;"> Date of Application:</h4>
 </div>
 <div class="col-xs-3 text-left">
-<h4 style="text-decoration: underline; text-overflow: ellipsis;" > ${todaydate}jhij
+<h4 style="text-decoration: underline; text-overflow: ellipsis;" > ${todaydate}
 </h4>
 </div>
 <div class = "col-md-12">
@@ -77,7 +77,7 @@ ${selectedterm.semester}- ${selectedterm.year}j</h4>
 <h4 style= "font-weight:bold; text-overflow: ellipsis;" > Department:</h4>
 </div>
 <div class="col-xs-9 text-left">
-<h4 style="text-decoration: underline; text-overflow: ellipsis;"> ${course.department.departmentname}hh
+<h4 style="text-decoration: underline; text-overflow: ellipsis;"> ${course.department.departmentname}
 </h4>
 </div>
 </div>
@@ -147,7 +147,7 @@ ${selectedterm.semester}- ${selectedterm.year}j</h4>
 </div>
 
 <div class="col-xs-8 text-left" >
-<h4 style="text-decoration: underline; text-overflow: ellipsis;" >   ${order.istextusedlater}kmkm
+<h4 style="text-decoration: underline; text-overflow: ellipsis;" >   ${order.istextusedlater}
 </h4>
 </div>
 
@@ -160,7 +160,7 @@ ${selectedterm.semester}- ${selectedterm.year}j</h4>
 </div>
 </div>
 <div class="col-xs-12 text-center" style= "border: 1px solid black; padding:20px;" >
-<h4> ${order.comments}kkkm
+<h4> ${order.comments}
 </h4>
 </div>
 
@@ -174,11 +174,11 @@ ${selectedterm.semester}- ${selectedterm.year}j</h4>
 </div>
 
 <div class ="col-xs-6 text-right" style= "text-overflow: ellipsis;">
-<h3 style="text-decoration: underline">${order.user.initials}(${order.user.firstname} ${order.user.lastname})slm ()solomon</h3>
+<h3 style="text-decoration: underline">${order.user.initials}(${order.user.firstname} ${order.user.lastname})</h3>
 </div>
 
 <div class ="col-xs-6 text-right" style= "text-overflow: ellipsis;">
-<h3 style="text-decoration: underline">${order.orderdate} 23/23/23</h3>
+<h3 style="text-decoration: underline">${order.orderdate}</h3>
 </div>
 
 <div class ="col-xs-6 text-center" style= "text-overflow: ellipsis;">
@@ -190,11 +190,11 @@ ${selectedterm.semester}- ${selectedterm.year}j</h4>
 </div>
 
 <div class ="col-xs-6 text-right" style= "text-overflow: ellipsis;">
-<h3 style="text-decoration: underline;text-overflow: ellipsis;">${chairuser.initials}(${chairuser.firstname} ${chairuser.lastname})vic ()victor ra</h3>
+<h3 style="text-decoration: underline;text-overflow: ellipsis;">${chairuser.initials}(${chairuser.firstname} ${chairuser.lastname})</h3>
 </div>
 
 <div class ="col-xs-6 text-right" style= "text-overflow: ellipsis;">
-<h3 style="text-decoration: underline">${order.chairapproveddate} 23/23/23</h3>
+<h3 style="text-decoration: underline">${order.chairapproveddate}</h3>
 </div>
 <div class ="col-xs-6 text-center" style= "text-overflow: ellipsis;">
 <h5 >Approved by Department Dean:</h5>
@@ -205,11 +205,11 @@ ${selectedterm.semester}- ${selectedterm.year}j</h4>
 </div>
 
 <div class ="col-xs-6 text-right" style= "text-overflow: ellipsis;">
-<h3 style="text-decoration: underline">${deanuser.initials}(${deanuser.firstname} ${deanuser.lastname})dean ()dean</h3>
+<h3 style="text-decoration: underline">${deanuser.initials}(${deanuser.firstname} ${deanuser.lastname})</h3>
 </div>
 
 <div class ="col-xs-6 text-right" style= "text-overflow: ellipsis;">
-<h3 style="text-decoration: underline">${order.deanapproveddate} 23/23/24</h3>
+<h3 style="text-decoration: underline">${order.deanapproveddate}</h3>
 </div>
 <div class ="col-xs-6 text-center" style= "text-overflow: ellipsis;">
 <h5 >Approved by Vice President for Academic Affairs:</h5>
@@ -221,11 +221,11 @@ ${selectedterm.semester}- ${selectedterm.year}j</h4>
 
 <div class= "col-xs-12">
 <div class ="col-xs-6 text-right" style= "text-overflow: ellipsis;">
-<h3 style="text-decoration: underline">${presidentuser.initials}(${presidentuser.firstname} ${presidentuser.lastname})fsd</h3>
+<h3 style="text-decoration: underline">${presidentuser.initials}(${presidentuser.firstname} ${presidentuser.lastname})</h3>
 </div>
 
 <div class ="col-xs-6 text-right" style= "text-overflow: ellipsis;">
-<h3 style="text-decoration: underline">${order.vicepresidentapproveddate} 23/23/25</h3>
+<h3 style="text-decoration: underline">${order.vicepresidentapproveddate} </h3>
 </div>
 </div>
 </div>

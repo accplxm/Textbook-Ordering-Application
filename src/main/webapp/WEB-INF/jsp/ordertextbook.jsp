@@ -10,6 +10,7 @@
 <link href="static/css/style.css" rel="stylesheet">
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 <script type="text/javascript" src="static/js/myscript.js"></script>
 <script type="text/javascript"
 	src="static/js/activeselection.js"></script>
@@ -17,6 +18,36 @@
 
 <script type="text/javascript"
 	src="static/js/validateordertextbook.js"></script>
+
+<script>
+
+ function getCourseList() {
+            var departmentId = $("#departmentId").val();
+            console.debug(departmentId);
+            $.ajax({
+                url: '/getCourseList',
+                type: 'POST',
+                dataType: 'json',
+                contentType: 'application/json',
+                data: JSON.stringify({ departmentId: departmentId }),
+                success: function (result) {
+                    console.debug(result);
+                    $("#coursedropdown").html("");
+                    $("#coursedropdown").append($('<option></option>').html("---Select Course---"));
+                    $.each(result, function (i, Course) {
+                        $("#coursedropdown").append($('<option></option>').val(Course.class_id).html(Course.courseId));
+                    })
+
+
+                },
+                error: function (err) {
+                console.debug(result);
+                $("#coursedropdown").html("");
+                    $("#coursedropdown").append($('<option></option>').html("---Select Course---"));
+                 alert("Sorry for inconvenience.There are no courses for this department. Select other department to continue.") },
+            });
+        }
+</script>
 
 
 </head>
@@ -33,11 +64,28 @@
 			<input type="hidden" name="user_id" value="${user.user_id}" />
 			<input type="hidden" name="department_id" value="${user.department}" />
 			<label class="control-label" id= "error" style="color:red; font-size:20px; text-align: left;"></label>
+
+			<div class="form-group">
+			<label class="control-label col-md-3"> Select Department </label>
+			<div class= "col-md-7">
+			<select class ="form-control" name="department" id= "departmentId" onchange = "getCourseList()">
+        <c:forEach var="department" items="${departments}">
+            <option  value="${department.department_id}"   ${user.department.department_id == department.department_id ? 'selected' : ''}>
+                <c:out value="${department.departmentname}"/>
+            </option>
+        </c:forEach>
+    </select>
+			</div>
+			</div>
+
 			<div class="form-group">
 				<label class="control-label col-md-3"> Select course</label>
 
 				<div class="col-md-7 selectContainer">
-					<select class="form-control" name="course">
+					<select class="form-control" name="course" id = "coursedropdown">
+					<option >
+								---Select Course---
+							</option>
 						<c:forEach var="course" items="${courses}">
 							<option  value="${course.class_id}">
 								<c:out value="${course.courseId}" />

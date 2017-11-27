@@ -5,7 +5,7 @@
 
 
   There is a textbook request raised by ${instructor}. Order is approved by Chair person. Approve the order by going through below link.
-  The link to access the application is <a href="http://localhost:8080/landingPage.html"> Textbook Ordering Application</a>.
+  The link to access the application is <a href="http://textbook-ordering-application.herokuapp.com/"> Textbook Ordering Application</a>.
   </div>
 
 

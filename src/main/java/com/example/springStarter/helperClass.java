@@ -1,11 +1,15 @@
 package com.example.springStarter;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.TimeZone;
 
 import javax.servlet.http.HttpServletRequest;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -21,6 +25,7 @@ import com.example.springStarter.service.UserService;
 @Component
 public class helperClass {
 
+	 private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @Autowired
     private OrderService orderService;
@@ -201,4 +206,14 @@ public boolean rejectOrder(int orderId , String userRole,boolean backToFaculty,S
 
 }
 
+
+public String getCurrentDate(){
+	Date date = new Date();
+	 SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-mm-dd");
+	 dateFormat.setTimeZone(TimeZone.getTimeZone("America/Kentucky/Louisville"));
+
+	 logger.debug("Today Date Retrieved:" + dateFormat.format(date));
+	 return dateFormat.format(date);
+
+}
 }

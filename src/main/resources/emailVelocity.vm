@@ -4,7 +4,7 @@
   <div>
 
   There is a textbook order request raised for course no: ${course} by ${instructor}. Please log-in to your account and approve the request.
-  The link to access the application is <a href="http://localhost:8080/landingPage.html"> Textbook Ordering Application</a>.
+  The link to access the application is <a href="http://textbook-ordering-application.herokuapp.com/"> Textbook Ordering Application</a>.
   </div>
 
 

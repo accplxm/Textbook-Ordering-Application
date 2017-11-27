@@ -19,7 +19,7 @@ This is to inform that the ${semestername} semester deadline for submitting text
               <tr bgcolor="#FFFFFF">
                 <td align="center">$row</td>
                 <td align="center">$order.classOrders[0].course.classname</td>
-                <td align="center">$order.status</td>
+                <td align="center">waiting for '${order.status}' approval</td>
 
 
               </tr>
@@ -30,7 +30,7 @@ This is to inform that the ${semestername} semester deadline for submitting text
 
 
 
- Order any remaining textbooks before deadline.The link to access the application is <a href="http://localhost:8080/landingPage.html"> Textbook Ordering Application</a>.
+ Order any remaining textbooks before deadline.The link to access the application is <a href="http://textbook-ordering-application.herokuapp.com/"> Textbook Ordering Application</a>.
   </div>
 
 

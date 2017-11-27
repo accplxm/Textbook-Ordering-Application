@@ -17,6 +17,11 @@ function validateOrderTextbookForm() {
 
 		 if (finalError=="" && document.ordertextbookform.elements["title"+i] !== undefined) {
 
+			 if (document.ordertextbookform.course.value == "---Select Course---") {
+				 finalError = finalError + "*Select a Course<br/>";
+				 valid =false;
+				 }
+
 
 
 			 if (document.ordertextbookform.elements["title"+i].value == "" || !isNaN(document.ordertextbookform.elements["title"+i].value)) {
@@ -31,8 +36,8 @@ function validateOrderTextbookForm() {
 				 valid =false;
 				 }
 
-			 if (document.ordertextbookform.elements["copyright"+i].value == "" || !isNaN(document.ordertextbookform.elements["copyright"+i].value)) {
-				 finalError = finalError + "*Copyright field cannot be empty and numeric<br/>";
+			 if (document.ordertextbookform.elements["copyright"+i].value == "") {
+				 finalError = finalError + "*Copyright field cannot be empty<br/>";
 				 valid =false;
 				 }
 
@@ -50,6 +55,8 @@ function validateOrderTextbookForm() {
 				 finalError = finalError + "*Publisher field cannot be empty and numeric<br/>";
 				 valid =false;
 			 }
+
+
 
 			 }else{
 				 isStillPresent =false;

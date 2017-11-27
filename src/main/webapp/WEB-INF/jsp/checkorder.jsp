@@ -37,7 +37,7 @@ function PrintFunction() {
 <div class= "text-center" style= "border: 3px solid black; margin:30px;">
 <div class= "text-center">
 
- <h3>Order Details for course ${order.classOrders[0].course.classname} ordered by ${order.user.lastname} ${order.user.firstname}</h3>
+ <h3>Order Details for course ${order.classOrders[0].course.classname} ordered by ${order.user.firstname} ${order.user.lastname} </h3>
 
 </div>
 
@@ -148,28 +148,32 @@ ${order.term.semester} ${order.term.year}</h4>
 </div>
 </div>
 </div>
+<div class = "row">
+<div class ="col-md-6">
 <div class="text-center form-horizontal">
 
-<h4 class = "col-md-6"> Approve the Order</h4>
-<div class ="col-md-6">
+<h4 class = "col-md-6 text-right"><label> Approve the Order: </label></h4>
+<div class ="col-md-6 text-left">
 <a class=" btn btn-info" href="update-order?id=${order.order_id}&userRole=${user.role}" onclick="return confirm('Are you sure to proceed?')">Approve</a>
 </div>
 </div>
+</div>
+<div class ="col-md-6">
 <form class="form-horizontal" method="POST" action="reject-order" name="ordertextbookform"  >
-<div class = "col-md-12 text-center" >
-<h4 class="col-md-6"> Reject the order</h4>
+<div class = "row text-center" >
+<h4 class="col-md-6 text-right"> <label>Reject the order: </label></h4>
 
-<div  class="col-md-3">
+<div  class="col-md-5 text-left">
 <input type="text" name='rejectioncomments' placeholder='Rejection Comments'
 										class="form-control" /></div>
 </div>
 <div class="text-right form-horizontal">
-<div class="col-md-3"></div>
 
-<div class="col-md-4 form-group text-right ">
-				<label class="col-md-6 control-label "> Reject to: </label>
 
-				<div class="selectContainer col-md-6 ">
+<div class="col-md-12 form-group ">
+				<label class="col-md-6 control-label text-right"> Reject to: </label>
+
+				<div class="selectContainer col-md-4 text-left ">
 					<select class="form-control" name="role">
 						<c:forEach var="role" items="${roles}">
 							<option  value="${role}">
@@ -184,7 +188,7 @@ ${order.term.semester} ${order.term.year}</h4>
 <input type="hidden" name="order_id" value="${order.order_id}" />
 			<input type="hidden" name="user_role" value="${user.role}" />
 
-<div class ="col-md-4 text-left form-group">
+<div class ="col-md-10 text-right form-group">
 
 
 				<input type="submit" class="btn btn-primary" value="Reject" onclick="return confirm('Are you sure to proceed?')" />
@@ -193,6 +197,8 @@ ${order.term.semester} ${order.term.year}</h4>
 
 </div>
 </form>
+</div>
+</div>
 <jsp:include page="booksearch.jsp"></jsp:include>
 </body>
 </html>

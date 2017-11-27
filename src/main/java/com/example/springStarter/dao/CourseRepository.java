@@ -7,6 +7,7 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 import com.example.springStarter.model.Course;
+import com.example.springStarter.model.Department;
 
 @Repository
 public interface CourseRepository  extends CrudRepository<Course, Integer> {
@@ -22,6 +23,9 @@ public interface CourseRepository  extends CrudRepository<Course, Integer> {
 
 	@Query("SELECT cs FROM order_table o INNER JOIN o.term t INNER JOIN o.classOrders co INNER JOIN co.course cs INNER JOIN cs.department d Where d.department_id = ?1 and t.term_id= ?2")
 	List<Course> findCoursesByDepartmentAndTerm(int departmentId,int  termId);
+
+
+	List<Course> findAllByDepartment(Department departmentId);
 
 	@Query("SELECT cs,o FROM order_table o INNER JOIN o.term t INNER JOIN o.classOrders co INNER JOIN co.course cs INNER JOIN cs.department d Where d.department_id = ?1 and t.term_id= ?2 and o.status=?3")
 	List<Object> findCoursesAndOrdersByDepartmentAndTerm(int departmentId,int  termId,String orderStatus);

@@ -8,7 +8,7 @@
 
   								"${rejectioncomments}"
 
-  Access the application by following link. The link to access the application is <a href="http://localhost:8080/landingPage.html"> Textbook Ordering Application</a>.
+  Access the application by following link. The link to access the application is <a href="http://textbook-ordering-application.herokuapp.com/"> Textbook Ordering Application</a>.
   </div>
 
 

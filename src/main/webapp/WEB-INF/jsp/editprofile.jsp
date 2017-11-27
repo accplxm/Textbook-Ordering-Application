@@ -51,7 +51,7 @@
 			<div class= "col-md-7">
 			<select class ="form-control" name="department">
         <c:forEach var="department" items="${departments}">
-            <option  value="${user.department.department_id}"   ${user.department.department_id == department.department_id ? 'selected' : ''}>
+            <option  value="${department.department_id}"   ${user.department.department_id == department.department_id ? 'selected' : ''}>
                 <c:out value="${department.departmentname}"/>
             </option>
         </c:forEach>

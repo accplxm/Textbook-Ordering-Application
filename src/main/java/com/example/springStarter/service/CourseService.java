@@ -8,6 +8,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.example.springStarter.dao.CourseRepository;
 import com.example.springStarter.model.Course;
+import com.example.springStarter.model.Department;
 
 
 
@@ -57,6 +58,10 @@ public class CourseService {
 		public List<Course> findCoursesByDepartmentAndTerm(int departmentId,int  termId){
 		return courseRepository.findCoursesByDepartmentAndTerm(departmentId, termId);
 }
+
+		public List<Course> findAllByDepartment(Department departmentId){
+			return courseRepository.findAllByDepartment(departmentId);
+	}
 
 
 }
