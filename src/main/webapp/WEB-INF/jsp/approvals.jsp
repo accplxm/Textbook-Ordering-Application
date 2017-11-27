@@ -65,6 +65,7 @@
 									<td>${order.status}</td>
 									<td>${order.term.semester} ${order.term.year}</td>
 									<td><a href="checkorder?order=${order.order_id}" target="_blank"> change Order status</a></td>
+									<td><a class=" btn btn-info" href="update-order?id=${order.order_id}&userRole=${user.role}" onclick="return confirm('Are you sure to proceed?')">Approve</a></td>
 
 									<%-- <td><a href="update-order?id=${order.order_id}&userRole=${user.role}"><span class= "glyphicon glyphicon-pencil"></</span></td> --%>
 
