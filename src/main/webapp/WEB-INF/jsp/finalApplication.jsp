@@ -63,7 +63,7 @@ function PrintFunction() {
 </div>
 <div class="col-xs-3 text-left">
 <h4 style="text-decoration: underline text-overflow: ellipsis;" >
-${selectedterm.semester}- ${selectedterm.year}j</h4>
+${term.semester}- ${term.year}</h4>
 </div>
 <div class="col-xs-3 text-right">
 <h4 style= "font-weight:bold; text-overflow: ellipsis;"> Date of Application:</h4>
@@ -156,7 +156,7 @@ ${selectedterm.semester}- ${selectedterm.year}j</h4>
 <h4 style= "font-weight:bold;">Additional Comments :</h4>
 </div>
 <div class="col-xs-8 text-left">
-<h4>d</h4>
+<h4></h4>
 </div>
 </div>
 <div class="col-xs-12 text-center" style= "border: 1px solid black; padding:20px;" >

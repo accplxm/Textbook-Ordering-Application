@@ -363,7 +363,11 @@ public class TestController {
             request.setAttribute("deanuser", userService.finduserByDepartmentAndRole(selectedCourse.getDepartment(),role.dean.toString()).get(0));
             request.setAttribute("presidentuser", userService.finduserByDepartmentAndRole(selectedCourse.getDepartment(),role.provost.toString()).get(0));
 
-            request.setAttribute("order", orderService.findOrderById(order));
+            Order selectedorder = orderService.findOrderById(order);
+            if(selectedorder.getComments()==null || selectedorder.getComments() == ""){
+            	selectedorder.setComments("NONE");
+            }
+            request.setAttribute("order", selectedorder);
             request.setAttribute("textbooks", textbookService.findTextbooksByTermAndCourse(term, course,order));
 
 
