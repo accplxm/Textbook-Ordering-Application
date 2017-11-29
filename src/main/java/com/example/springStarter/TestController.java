@@ -139,7 +139,7 @@ public class TestController {
 
 
         request.setAttribute("page", "PAGE_HOME");
-       // request.getSession().setAttribute("userid", 3);
+        //request.getSession().setAttribute("userid", 3);
         if((request.getSession().getAttribute("userid")!=null) && checkifRegisteredUser(request,(int)request.getSession().getAttribute("userid"))){
         request.setAttribute("user", userService.finduserById((int) request.getSession().getAttribute("userid")));
         request.setAttribute("redirect_URL", Setup.GOOGLE_AUTH_URL);
@@ -259,9 +259,10 @@ public class TestController {
 
             User departmentChair = (userService.finduserByDepartmentAndRole(currentUser.getDepartment(), role.chair.toString()).get(0));
 
-
+            if(departmentChair.getEmailsrequired()){
             mailingConfig.sendEmail(departmentChair.getFirstname()+departmentChair.getLastname(),departmentChair.getEmailid(),"Textbook order waiting for your approval",course.getClassname(),currentUser.getFirstname()+currentUser.getLastname());
-        } catch (Exception e) {
+
+            }} catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
@@ -482,6 +483,7 @@ public class TestController {
         User user=new User();
         user.setEmailid((String) request.getAttribute("email"));
         user.setFirstname((String) request.getAttribute("name"));
+        user.setEmailsrequired((Boolean)request.getAttribute("emailsrequired"));
         request.setAttribute("departments",departmentService.findAll() );
         request.setAttribute("user", user);
         return new ModelAndView("firstLoginData");
@@ -495,6 +497,11 @@ public class TestController {
         request.getAttribute("department");
 //        user.setDepartment((Department) request.getAttribute("department"));
         user.setRole(role.faculty.toString());
+        if (request.getParameter("emailsrequired") == null){
+       	 user.setEmailsrequired(false);
+        }else{
+       	 user.setEmailsrequired(true);
+        }
         User savedUser= userService.save(user);
         request.getSession().setAttribute("userid", savedUser.getUser_id());
 //		request.setAttribute("mode", "MODE_TASKS");

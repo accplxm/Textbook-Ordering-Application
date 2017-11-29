@@ -110,9 +110,10 @@ public boolean approveOrder(int orderId , String userRole){
 
             User departmentDean = (userService.finduserByDepartmentAndRole(order.getUser().getDepartment(), role.dean.toString()).get(0));
 
-
+if(departmentDean.getEmailsrequired()){
             mailingConfig.sendMailToDean(departmentDean.getFirstname()+departmentDean.getLastname(),departmentDean.getEmailid(),"Textbook order waiting for your approval",order.getUser().getFirstname()+order.getUser().getLastname());
-        } catch (Exception e) {
+
+}} catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
@@ -122,7 +123,7 @@ public boolean approveOrder(int orderId , String userRole){
         break;
     case "dean":
         order = orderService.findOrderById(orderId);
-        order.setStatus(status.done.toString());
+        order.setStatus(status.provost.toString());
         order.setDeanapproveddate(new Date());
         orderService.save(order);
 
@@ -132,8 +133,34 @@ public boolean approveOrder(int orderId , String userRole){
                 User provost = (userService.finduserByDepartmentAndRole(order.getUser().getDepartment(), role.provost.toString()).get(0));
 
 
+                if(provost.getEmailsrequired()){
                 mailingConfig.sendMailToProvost(provost.getFirstname()+provost.getLastname(),provost.getEmailid(),"Textbook order is Approved",order.getUser().getFirstname()+order.getUser().getLastname());
-            } catch (Exception e) {
+            }}
+                catch (Exception e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+
+
+        isUpdated =true;
+
+        break;
+    case "provost":
+        order = orderService.findOrderById(orderId);
+        order.setStatus(status.done.toString());
+        order.setVicepresidentapproveddate(new Date());
+        orderService.save(order);
+
+         try {
+                //get provost dean person address and name for sending the mail.
+
+                User provost = (userService.finduserByDepartmentAndRole(order.getUser().getDepartment(), role.provost.toString()).get(0));
+
+
+                if(provost.getEmailsrequired()){
+               // mailingConfig.sendMailToProvost(provost.getFirstname()+provost.getLastname(),provost.getEmailid(),"Textbook order is completed",order.getUser().getFirstname()+order.getUser().getLastname());
+            }}
+                catch (Exception e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
             }
@@ -174,8 +201,9 @@ public boolean rejectOrder(int orderId , String userRole,boolean backToFaculty,S
 
 
         try {
-            mailingConfig.sendRejectionMail(rejectionComments,facultyOrdered.getFirstname() +" " + facultyOrdered.getLastname(), facultyOrdered.getEmailid(), "Textbook Order Rejected", facultyOrdered.getFirstname() + " " + facultyOrdered.getLastname(), rejectedUser.getFirstname()+ " "+ rejectedUser.getLastname() , order.getClassOrders().get(0).getCourse().getClassname(),userRole);
-        } catch (Exception e) {
+        	if(rejectedToUser.getEmailsrequired()){
+            mailingConfig.sendRejectionMail(rejectionComments,rejectedToUser.getFirstname() +" " + rejectedToUser.getLastname(), rejectedToUser.getEmailid(), "Textbook Order Rejected", facultyOrdered.getFirstname() + " " + facultyOrdered.getLastname(), rejectedUser.getFirstname()+ " "+ rejectedUser.getLastname() , order.getClassOrders().get(0).getCourse().getClassname(),userRole);
+        } }catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }

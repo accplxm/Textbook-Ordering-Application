@@ -27,8 +27,22 @@ public class User implements Serializable  {
 	private String role;
 	private String initials;
 	private Boolean isadmin;
+	private Boolean emailsrequired;
+
 	public Boolean getIsadmin() {
 		return isadmin;
+	}
+
+
+
+	public Boolean getEmailsrequired() {
+		return emailsrequired;
+	}
+
+
+
+	public void setEmailsrequired(Boolean emailsrequired) {
+		this.emailsrequired = emailsrequired;
 	}
 
 

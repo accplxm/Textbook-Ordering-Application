@@ -88,6 +88,9 @@
 			</div>
 			</div>
 			<div class="form-group">
+			<input type="checkbox" name="emailsrequired" id= "emailsrequired"  ${user.emailsrequired == true ? 'checked' : ''}> Send Email Notifications <br>
+			</div>
+			<div class="form-group">
 			<input type="checkbox" name="authorize" id= "authorize" checked disabled="disabled"> Clicking this will authorize usage of your initials as your electronic signature <br>
 			</div>
 

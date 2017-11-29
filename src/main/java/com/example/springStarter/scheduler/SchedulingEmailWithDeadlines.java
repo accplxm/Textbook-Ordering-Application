@@ -54,9 +54,10 @@ public class SchedulingEmailWithDeadlines {
 		 Term term = termService.findtermsBySemesterAndYear(Year.now().getValue(), "FALL").get(0);
 		 try {
 
+if(departmentChair.getEmailsrequired()){
 
-			mailingConfig.deadlineEmail(departmentChair.getFirstname()+ " " + departmentChair.getLastname(), departmentChair.getEmailid(), "Fall Deadline Coming Soon",orderService.findAllByTerm(term), "FALL "+ term.getYear(), "April 1st");
-		} catch (Exception e) {
+	mailingConfig.deadlineEmail(departmentChair.getFirstname()+ " " + departmentChair.getLastname(), departmentChair.getEmailid(), "Fall Deadline Coming Soon",orderService.findAllByTerm(term), "FALL "+ term.getYear(), "April 1st");
+}	} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
@@ -86,8 +87,10 @@ public class SchedulingEmailWithDeadlines {
 		 try {
 
 
+			 if(departmentChair.getEmailsrequired()){
 			mailingConfig.deadlineEmail(departmentChair.getFirstname()+ " " + departmentChair.getLastname(), departmentChair.getEmailid(), "Fall Deadline Coming Soon",orderService.findAllByTerm(term), "FALL "+ term.getYear(), "April 1st");
-		} catch (Exception e) {
+		}
+		 }catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
@@ -119,9 +122,10 @@ public class SchedulingEmailWithDeadlines {
 		 Term term = termService.findtermsBySemesterAndYear(Year.now().getValue(), "Winter").get(0);
 		 try {
 
-
+			 if(departmentChair.getEmailsrequired()){
 			mailingConfig.deadlineEmail(departmentChair.getFirstname()+ " " + departmentChair.getLastname(), departmentChair.getEmailid(), "Winter Deadline Coming Soon",orderService.findAllByTerm(term), "WINTER "+ term.getYear(), "OCTOBER 1st");
-		} catch (Exception e) {
+		}}
+			 catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
@@ -150,9 +154,10 @@ public class SchedulingEmailWithDeadlines {
 		 Term term = termService.findtermsBySemesterAndYear(Year.now().getValue(), "Winter").get(0);
 		 try {
 
-
+			 if(departmentChair.getEmailsrequired()){
 			mailingConfig.deadlineEmail(departmentChair.getFirstname()+ " " + departmentChair.getLastname(), departmentChair.getEmailid(), "Winter Deadline Coming Soon",orderService.findAllByTerm(term), "Winter "+ term.getYear(), "October 1st");
-		} catch (Exception e) {
+		}
+		 }catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
@@ -184,9 +189,10 @@ public class SchedulingEmailWithDeadlines {
 			 Term term = termService.findtermsBySemesterAndYear(Year.now().getValue(), "Spring").get(0);
 			 try {
 
-
+				 if(departmentChair.getEmailsrequired()){
 				mailingConfig.deadlineEmail(departmentChair.getFirstname()+ " " + departmentChair.getLastname(), departmentChair.getEmailid(), "Spring Deadline Coming Soon",orderService.findAllByTerm(term), "SPRING "+ term.getYear(), "OCTOBER 15st");
-			} catch (Exception e) {
+			}
+			 }catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
@@ -215,9 +221,10 @@ public class SchedulingEmailWithDeadlines {
 			 Term term = termService.findtermsBySemesterAndYear(Year.now().getValue(), "Spring").get(0);
 			 try {
 
-
+				 if(departmentChair.getEmailsrequired()){
 				mailingConfig.deadlineEmail(departmentChair.getFirstname()+ " " + departmentChair.getLastname(), departmentChair.getEmailid(), "Spring Deadline Coming Soon",orderService.findAllByTerm(term), "SPRING "+ term.getYear(), "OCTOBER 15st");
-			} catch (Exception e) {
+			}
+			 }catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
@@ -248,9 +255,10 @@ public class SchedulingEmailWithDeadlines {
 				 Term term = termService.findtermsBySemesterAndYear(Year.now().getValue(), "Summer").get(0);
 				 try {
 
-
+					 if(departmentChair.getEmailsrequired()){
 					mailingConfig.deadlineEmail(departmentChair.getFirstname()+ " " + departmentChair.getLastname(), departmentChair.getEmailid(), "Summer Deadline Coming Soon",orderService.findAllByTerm(term), "Summer "+ term.getYear(), "MARCH 10th");
-				} catch (Exception e) {
+
+					 }} catch (Exception e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
@@ -280,9 +288,10 @@ public class SchedulingEmailWithDeadlines {
 				 Term term = termService.findtermsBySemesterAndYear(Year.now().getValue(), "Summer").get(0);
 				 try {
 
-
+					 if(departmentChair.getEmailsrequired()){
 					mailingConfig.deadlineEmail(departmentChair.getFirstname()+ " " + departmentChair.getLastname(), departmentChair.getEmailid(), "Summer Deadline Coming Soon",orderService.findAllByTerm(term), "Summer "+ term.getYear(), "MARCH 10th");
-				} catch (Exception e) {
+				}}
+					 catch (Exception e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}

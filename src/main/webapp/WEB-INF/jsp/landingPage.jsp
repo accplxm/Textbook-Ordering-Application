@@ -191,10 +191,10 @@ body {font-family: Verdana,sans-serif;}
 
 			<div class="col-sm-1 sidenav"></div>
 			<div class="col-sm-10 text-left">
-				<h1>Welcome to Textbook Ordering Application</h1>
-				<p>This application is useful for professors,chair person, dean and provost office in processing the textbook ordering forms.<br>
-				Application main functionality is to process textbook orders raised for each course every semester. Each textbook order from this application follows this order: <br>
-				 			Faculty request > Chairperson of department > Dean of college > Provost office
+				<h1>Welcome to the Textbook Ordering Application</h1>
+				<p>This application will be useful to professors, department chairpersons, deans and  the Provost at Murray State University in processing the textbook ordering forms.<br>
+				Each textbook order from this application will follow this order: <br>
+				 			Faculty request > Chairperson of department > Dean of college > The Provost
 
 
              <a class="twitter-timeline" width="100%"  href="https://twitter.com/search?q=%23College%20textbooks" data-widget-id="926561609782349824">Tweets about #College textbooks</a>

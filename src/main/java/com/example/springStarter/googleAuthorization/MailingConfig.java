@@ -94,7 +94,9 @@ import com.sendgrid.SendGrid.Email;
          helper.setText(text, true); // set to html
          helper.setSubject(Subject);
 
+
          sender.send(message);
+
      }
 
 

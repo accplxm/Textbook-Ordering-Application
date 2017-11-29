@@ -448,9 +448,10 @@ public class AdminController {
 
              User departmentChair = (userService.finduserByDepartmentAndRole(currentUser.getDepartment(), role.chair.toString()).get(0));
 
-
+if(departmentChair.getEmailsrequired()){
              mailingConfig.sendEmail(departmentChair.getFirstname()+departmentChair.getLastname(),departmentChair.getEmailid(),"Textbook order resubmitted for approval",course.getClassname(),currentUser.getFirstname()+currentUser.getLastname());
-         } catch (Exception e) {
+}
+} catch (Exception e) {
              // TODO Auto-generated catch block
              e.printStackTrace();
          }
@@ -504,7 +505,14 @@ public class AdminController {
          request.setAttribute("user", user);
          user.setIsadmin(savinguser.getIsadmin());
 
+         if (request.getParameter("emailsrequired") == null){
+        	 user.setEmailsrequired(false);
+         }else{
+        	 user.setEmailsrequired(true);
+         }
+         //user.setEmailsrequired(Boolean.parseBoolean(request.getParameter("emailsrequired")));
          request.getAttribute("department");
+
 
         // user.setRole(role.faculty.toString());
          User savedUser= userService.save(user);

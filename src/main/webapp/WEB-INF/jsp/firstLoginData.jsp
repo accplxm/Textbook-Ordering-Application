@@ -82,8 +82,14 @@
 			</div>
 			</div>
 			<div class="form-group">
+			<input type="checkbox" name="emailsrequired" id= "emailsrequired" checked> Send Email Notifications <br>
+			</div>
+
+
+			<div class="form-group">
 			<input type="checkbox" name="authorize" id= "authorize"> Clicking this will authorize usage of your initials as your electronic signature <br>
 			</div>
+
 
 
 			<div class="form-group">
