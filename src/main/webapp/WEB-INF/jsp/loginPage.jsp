@@ -21,7 +21,7 @@
 
 <div class= "container h-100 d-flex justify-content-center">
 <div class= "col-lg-12 bordermargin" align ="center" >
-<img  class= "img-responsive borderpadding" src = "https://upload.wikimedia.org/wikipedia/commons/2/2c/MSU_Logo.png">
+<img  class= "img-responsive borderpadding" src = "static/images/MSU_LOGO.png">
 </div>
 
 <div class= "col-lg-12 bordermargin" align ="center" >
