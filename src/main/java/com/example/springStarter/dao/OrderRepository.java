@@ -21,5 +21,8 @@ public interface OrderRepository  extends CrudRepository<Order, Integer> {
 	List<Order> findUserByDepartmentAndUserRole(int departmentId,String role);
 
 
+	@Query("SELECT o FROM order_table o INNER JOIN o.user u INNER JOIN u.department d where d.department_id = ?1 and u.user_id = ?2 and o.term= ?3")
+	List<Order> findOrderByDepartmentAndTermAndUser(int departmentId,int userId,Term termId);
+
 	List<Order> findAllByTerm(Term term);
 }

@@ -69,4 +69,7 @@ public class OrderService {
 
 		}
 
+		public List<Order> findOrderByDepartmentAndTermAndUser(int departmentId,int userId,Term termId){
+			return orderRepository.findOrderByDepartmentAndTermAndUser(departmentId,userId,termId);
+		}
 }

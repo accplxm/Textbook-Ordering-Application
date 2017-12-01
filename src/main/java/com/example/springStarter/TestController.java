@@ -110,7 +110,7 @@ public class TestController {
 //
 //		request.setAttribute("user", user);request.setAttribute("redirect_URL", Setup.GOOGLE_AUTH_URL);
     	 //request.setAttribute("page", "PAGE_HOME");
-         // request.getSession().setAttribute("userid", 3);
+          //request.getSession().setAttribute("userid", 3);
           if(((request.getSession().getAttribute("userid")!=null) && checkifRegisteredUser(request,(int)request.getSession().getAttribute("userid")))){
         	  return new ModelAndView("redirect:/landingPage.html");
           }
@@ -280,7 +280,11 @@ public class TestController {
     }
 
 
-
+    @RequestMapping(value="/getCoursesInDepartment",method=RequestMethod.GET)
+    public @ResponseBody List<Course> getDepartmentCourses(HttpServletRequest request){
+    	User user =userService.finduserById((int)request.getSession().getAttribute("userid"));
+        return courseService.findAllByDepartment(user.getDepartment());
+    }
 
 
 
@@ -452,6 +456,12 @@ public class TestController {
             return false;
             //request.getSession().setAttribute("userid", 3);
         }
+        User user =userService.finduserById((int)request.getSession().getAttribute("userid"));
+        request.setAttribute("departmentname",user.getDepartment().getDepartmentname());
+        request.setAttribute("departmentcourses",courseService.findAllByDepartment(user.getDepartment()).size());
+        request.setAttribute("year", "2017");
+        request.setAttribute("fallrequests", orderService.findOrderByDepartmentAndTermAndUser(user.getDepartment().getDepartment_id(), user.getUser_id(), termService.findtermsBySemesterAndYear(2017, "Fall").get(0)).size());
+        request.setAttribute("springrequests", orderService.findOrderByDepartmentAndTermAndUser(user.getDepartment().getDepartment_id(), user.getUser_id(), termService.findtermsBySemesterAndYear(2017, "Spring").get(0)).size());
 
         return true;
 
